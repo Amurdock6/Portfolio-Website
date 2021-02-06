@@ -1,0 +1,62 @@
+-some type of cool animation on home page
+-have a custom cursor 
+-link to social thinges
+-breff introduction about yourself / about 
+-paralaxs
+-email 
+-GOOD PICTURES AND ANIMATIONS 
+-link to work
+-include languages the works were coded in
+-somewhat normal nav bar 
+-include lots of diffrent ways to format your content
+-load on scroll feature
+-change the side drag to scrool
+-cool loading image.icon
+
+
+scroolTo() use this for my pages links
+transform rotate = spiny cirlce things on patricks site
+
+maybes
+=============================================================================================================================================
+-have a form to contact me
+
+cool examples websites
+=========================================================================================================================================
+https://vanschneider.com/  
+https://pierre.io/
+https://toyfight.co/what/
+https://nrly.co/ /*Has a cool thing for there socials */
+***https://www.loungelizard.com/ /* Audio is pretty cool. also put js button to change pictures should add that on mine */
+https://www.stevenmengin.com/ /* great animations cool side scroll */
+http://y78.fr/ /* I really like videos in theis one and he does a great job at capturing is theme */
+***https://bepatrickdavid.com/ /* this one had a cool loading effect I also really like the grain in the background. hover effect is really cool too*/
+http://rauhwelt-usa.com/roughworld/ /* Its rauh welt whats not to love. */
+https://www.jonathanglynnsmith.com/ /* awesome intro and cool slide show */
+http://mansourimoments.com/
+https://meesverberne.com/
+
+
+
+Things for my page
+==============================================================================================================================================
+https://giphy.com/gifs/matthias-brown-traceloops-matthiasbrown-1T1s6iNuWG3BK /* cool GIF */
+https://redstapler.co/css-film-grain-effect/
+
+clock html
+	 <!-- clock start 
+		<div class="datetime">
+		  <div class="date">
+			<span id="dayname">Day</span>,
+			<span id="month">Month</span>,
+			<span id="daynum">00</span>,
+			<span id="year">Year</span>
+		  </div>
+		  <div class="time">
+			<span id="hour">00</span>:
+			<span id="minutes">00</span>:
+			<span id="seconds">00</span>
+			<span id="period">AM</span>
+		  </div>
+		</div>-->
+Guide to Compound Assignment Operators in JavaScript
