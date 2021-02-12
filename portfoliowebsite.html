@@ -44,12 +44,12 @@
 				<p>Web Developer</p><br>
 					<a href="https://www.instagram.com/murdock_electronics/?hl=en"><i class="fab fa-instagram"></i></a>
 					<a href="https://twitter.com/AlexanderMurd13"><i class="fab fa-twitter"></i></a>
-					<a href="https://www.linkedin.com/in/alex-murdock-814007204/"><i class="fab fa-linkedin"></i></a>
+					<a href="https://www.linkedin.com/in/alexander-murdock-814007204/"><i class="fab fa-linkedin"></i></a>
 			</div>
 		
 			<div class="nav-flex">
 				<a href="#work"><div class="red-underline"><p>work</p></div></a>
-				<a href="#c"><p>certficates</p></a>
+				<a href="#certficates"><p>certficates</p></a>
 				<a href="mailto:alexanderrmurdock@gmail.com"><div class="right-p">contact me</div></a>
 			</div>
 		</div>
@@ -83,21 +83,23 @@
 					<div class="img-wrapper">
 						<img src="images/rhs_auto.jpg" alt="Riverton High Schools Auto website">
 					</div>
-					
-					<div class="square-text-wrapper">
-						<a href="#" alt="link to Riverton High Schools auto website">
-							<h1>RHS Auto Website</h1>
-						</a>
+					<div class="box-1">
+						<div class="square-text-wrapper">
+							<a href="#" alt="link to Riverton High Schools auto website">
+								<h1>RHS Auto Website</h1>
+							</a>
+							
+							<ul>
+								<li>HTML, CSS, SCSS, JS, PHP</li>
+								<li> My first real website </li>
+							</ul>
 						
-						<ul>
-							<li>HTML, CSS, JS</li>
-							<li> My first real website </li>
-						</ul>
-						
+						</div>
 					</div>
 				</div>
 				
 				<div class="square">
+				
 					<div class="square-text-wrapper">
 						<a href="#"  >
 							<h1>Medium</h1>
@@ -107,7 +109,7 @@
 						</ul>
 						
 					</div>
-						
+				
 					<div class="img-wrapper">
 						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPKFBrvJLTed4eJgihPOpET-jDgpWUFCVLQ&usqp=CAU" alt="Fries">
 					</div>
@@ -150,16 +152,23 @@
 				</div>
 			</div>
 		</div>
+		<button type="button" onclick="getResolution();">Get Resolution</button>
 </div>
 	
 	<!-- certificates -->
 
 
-	<!-- Button on fixed on bottom right corner of the page -->
+	<!-- Button fixed on bottom right corner of the page -->
 	
 	
 	<!-- scripts -->
 	<script src="js/main.js"></script>
 	<script src="js/back-to-top.js"></script>
+	<script>
+		function getResolution() {
+			alert("Screen resolution is: " + screen.width + "x" + screen.height);
+		}
+	</script>
+	
 </body>
 </html>

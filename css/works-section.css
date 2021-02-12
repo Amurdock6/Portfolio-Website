@@ -3,7 +3,7 @@
 	display: flex;
     justify-content: center;
     padding-top: 200px;
-	padding-bottom: 200px;
+	padding-bottom: 80px;
 	font-family: "fatboy-slim";
 	font-size: 4.3em;
 }
@@ -37,7 +37,6 @@
 .img-wrapper	{
     margin-right: -175px;
     padding-bottom: 110px;
-    
 }
 
 .square > .square-text-wrapper {
@@ -70,8 +69,29 @@
 .box-3 {
 	padding-left: 300px;
 	text-align: center;
+	color: #fff;
 }
 
 .box-3 h1{
 	padding-bottom: 15px;
+	color: #fff;
+}
+
+.box-3 h1:hover {		
+	color: #add8e6;
+}
+
+.box-1	{
+	padding-left: 230px;
+	display: block;
+	color: #fff;
+}
+
+.box-1 h1{
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+.box-1 h1:hover {		
+	color: #add8e6;
 }
