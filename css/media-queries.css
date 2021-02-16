@@ -246,7 +246,7 @@
 		}
 		
 	.nav .nav-flex p {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		font-family: fatboy-slim;
 		font-weight: 100;
 		color: white;
@@ -262,7 +262,7 @@
 	}
 	
 	.nav .right-p 	{
-		font-size: 1.3em;
+		font-size: 1.1em;
 		font-family: fatboy-slim;
 		font-weight: 100;
 		color: #ffffff;
@@ -367,7 +367,7 @@
 .right-side-main	{
 	color: #fff;
 	display: flex;
-	padding-right: 40px;
+	padding-right: 70px;
 	justify-content: flex-start;
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -382,7 +382,7 @@ h3	{
 	width: 32%;
 }
 
-	/* work area */
+/* work area */
 	.top h1 {
 		color: #fff;
 		display: flex;
@@ -395,7 +395,7 @@ h3	{
 
 
 	.squares-wrapper > .squares > .square {
-		width: 100vh;
+		width: 85vh;
 	}
 
 	.squares-wrapper {
@@ -411,8 +411,8 @@ h3	{
 		flex-direction: column;
 		padding: 0px;
 		margin-top: -220px;
-		margin-right: 60px;
-		margin-left: -130px;
+		margin-right: 0px;
+		margin-left: -170px;
 		padding-top: 50px;
 		width: 135.8%;
 	}
@@ -423,7 +423,7 @@ h3	{
 	}
 	
 	.img-wrapper	{
-		margin-right: 0px;
+		width: 190%;
 		padding-bottom: 110px;
 	
 	}
