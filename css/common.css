@@ -17,65 +17,6 @@ body	{
 	overflow-x: hidden;
 }
 
-footer	{
-	background-color: #191a1d;
-	color: #fff;
-	font-size: 40px;
-	width: 100%;
-	height: 210px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-top: 86px;
-	box-shadow:  5px 5px 150px 40px #191a1d;
-	-webkit-box-shadow: inset 0px 50px 50px -14px #000000; 
-	box-shadow: inset 0px 50px 50px -14px #000000;
-}
-
-footer a {
-	color: #fff;
-}
-
-footer .footer-text a{
-	text-align: center;
-	transition: letter-spacing 0.5s;
-}
-
-footer .footer-text a:hover{
-	color: #add8e6;
-	letter-spacing: 4px;
-}
-
-footer .footer-text a:active	{
-	color: #fff;	
-	}
-	
-footer a:visited	{
-	color: #fff;
-	}
-
-/* underline for footer text */
-footer .footer-text a {
-	position: relative;
-}
-
-footer .footer-text a:before{
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 5px;
-  bottom: 0;
-  left: 0;
-  background-color: #add8e6;
-  visibility: hidden;
-  transition: all 0.4s ease-in-out;
-}
-
-footer .footer-text a:hover:before{
-	visibility: visible;
-	width: 100%;
-}
-
 p	{
 	color: #ffffff;
 	size: 2.4em;
@@ -105,6 +46,64 @@ a:visited	{
 	color: #add8e6;
 	}
 
+	footer	{
+		background-color: #191a1d;
+		color: #fff;
+		font-size: 40px;
+		width: 100%;
+		height: 210px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding-top: 86px;
+		box-shadow:  5px 5px 150px 40px #191a1d;
+		-webkit-box-shadow: inset 0px 50px 50px -14px #000000; 
+		box-shadow: inset 0px 50px 50px -14px #000000;
+	}
+	
+	footer a {
+		color: #fff;
+	}
+	
+	footer .footer-text a{
+		text-align: center;
+		transition: letter-spacing 0.5s;
+	}
+	
+	footer .footer-text a:hover{
+		color: #add8e6;
+		letter-spacing: 4px;
+	}
+	
+	footer .footer-text a:active	{
+		color: #fff;	
+		}
+		
+	footer a:visited	{
+		color: #fff;
+		}
+	
+	/* underline for footer text */
+	footer .footer-text a {
+		position: relative;
+	}
+	
+	footer .footer-text a:before{
+	  content: "";
+	  position: absolute;
+	  width: 0;
+	  height: 5px;
+	  bottom: 0;
+	  left: 0;
+	  background-color: #add8e6;
+	  visibility: hidden;
+	  transition: all 0.4s ease-in-out;
+	}
+	
+	footer .footer-text a:hover:before{
+		visibility: visible;
+		width: 100%;
+	}
 ::selection	{
 	background-color: #ffffff;
 	color: #000000;
@@ -131,17 +130,18 @@ a:visited	{
 .background-grain {
   position: absolute;
   width: 100vw;
-  height: 313%;
+  height: 349%;
   overflow: hidden;
   background: #000000;
-  box-shadow: inset 0px 150px 140px #191a1d;
+  -webkit-box-shadow: inset 0px 280px 90px -8px #191a1d; 
+  box-shadow: inset 0px 280px 90px -8px #191a1d;
 }
 
 .background-grain::after {
   content:"";
   position: absolute;
   width: 200vw;
-  height: 313%;
+  height: 349%;
   left: -50%;
   top: -50%;
   pointer-events: none;
@@ -168,19 +168,19 @@ a:visited	{
 	.background-grain {
 		position: absolute;
 		width: 100vw;
-		height: 247%;
+		height: 378%;
 		overflow: hidden;
 		background: #000000;
 		box-shadow: inset 0px 150px 140px #191a1d;
 	  }
 }
 
-@media (min-width: 1200px) and (max-width: 1799px){
+@media (min-width: 1290px) and (max-width: 1799px){
 
 	.background-grain {
 		position: absolute;
 		width: 100vw;
-		height: 381%;
+		height: 527%;
 		overflow: hidden;
 		background: #000000;
 		box-shadow: inset 0px 150px 140px #191a1d;
@@ -188,4 +188,15 @@ a:visited	{
 
 }
 
+@media (min-width: 1200px) and (max-width: 1289px){
 
+	.background-grain {
+		position: absolute;
+		width: 100vw;
+		height: 484%;
+		overflow: hidden;
+		background: #000000;
+		box-shadow: inset 0px 150px 140px #191a1d;
+	  }
+
+}
