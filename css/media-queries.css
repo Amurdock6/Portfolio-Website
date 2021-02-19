@@ -398,6 +398,10 @@ h3	{
 		width: 85vh;
 	}
 
+	.square > .square-text-wrapper h1{
+		font-size: 1.8em;
+	}
+
 	.squares-wrapper {
 		display: flex;
 		justify-content: center;
@@ -412,7 +416,8 @@ h3	{
 		padding: 0px;
 		margin-top: -220px;
 		margin-right: 0px;
-		margin-left: -170px;
+		margin-left: -190px;
+		padding-left: -130px;
 		padding-top: 50px;
 		width: 135.8%;
 	}
@@ -423,7 +428,7 @@ h3	{
 	}
 	
 	.img-wrapper	{
-		width: 190%;
+		width: 500px;
 		padding-bottom: 110px;
 	
 	}
@@ -452,7 +457,6 @@ h3	{
 		width: 150%;
 	}
 	
-
 }
 
 
