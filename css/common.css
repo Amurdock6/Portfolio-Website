@@ -59,6 +59,7 @@ a:visited	{
 		box-shadow:  5px 5px 150px 40px #191a1d;
 		-webkit-box-shadow: inset 0px 50px 50px -14px #000000; 
 		box-shadow: inset 0px 50px 50px -14px #000000;
+		text-align: center;
 	}
 	
 	footer a {
@@ -104,6 +105,7 @@ a:visited	{
 		visibility: visible;
 		width: 100%;
 	}
+	
 ::selection	{
 	background-color: #ffffff;
 	color: #000000;
@@ -199,4 +201,11 @@ a:visited	{
 		box-shadow: inset 0px 150px 140px #191a1d;
 	  }
 
+}
+
+/* Mobile */
+@media (min-width: 250px) and (max-width: 299px) {
+	.background-grain {
+		height: 431%;	
+	}
 }
