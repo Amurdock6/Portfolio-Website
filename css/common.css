@@ -203,6 +203,14 @@ a:visited	{
 
 }
 
+/* tablets */
+@media (min-width: 540px) and (max-width: 599px){
+	.background-grain {
+		height: 408%;	
+	}
+}
+
+
 /* Mobile */
 @media (min-width: 410px) and (max-width: 414px){
 	.background-grain {
@@ -221,6 +229,13 @@ a:visited	{
 		height: 340%;	
 	}
 }
+
+@media (min-width: 359px) and (max-width: 361px)	{
+	.background-grain {
+		height: 436%;	
+	}
+}
+
 @media (min-width: 300px) and (max-width: 320px) {
 	.background-grain {
 		height: 495%;	
@@ -233,9 +248,9 @@ a:visited	{
 	}
 }
 
-
 @media (min-height: 822px) and (max-height: 823px) {
 	.background-grain {
 		height: 343%;	
 	}
 }
+
