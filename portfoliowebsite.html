@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<!-- meta tags -->
 	<meta charset="utf-8">
@@ -19,15 +19,19 @@
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
 	<link rel="stylesheet" type="text/css" href="css/works-section.css">
 	<link rel="stylesheet" type="text/css" href="css/certificates-section.css">
-	<link rel="btnScrollToTop" type="text/css" href="css/back-to-top-btn.css">
+	<link rel="stylesheet" type="text/css" href="css/back-to-top-btn.css">
+	<link rel="stylesheet" type="text/css" href="css/reveal-on-scroll.css">
 	<!-- fonts -->
 	<link rel="stylesheet" type="text/css" href="css/fat-boy.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/fbaeec0637.js" crossorigin="anonymous"></script>
+	<!-- scroll efects -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
 </head>
-<body onload="initClock()">
+<body>
 	<div class="preload">
 		<h2>
 			Alexander Murdock
@@ -37,201 +41,217 @@
 		</h2>
 	</div>
 
-<!-- nav -->
-<div class="background-grain">
-		<div class="nav">
-			<div class="nav-left" id="#top">
-				Alexander Murdock<br>
-				<p>Web Developer</p><br>
-					<a href="https://www.instagram.com/murdock_electronics/?hl=en" target=”_blank”><i class="fab fa-instagram"></i></a>
-					<a href="https://twitter.com/AlexanderMurd13" target=”_blank”><i class="fab fa-twitter"></i></a>
-					<a href="https://www.linkedin.com/in/alexander-murdock-814007204/" target=”_blank”><i class="fab fa-linkedin"></i></a>
-			</div>
+	<!-- nav -->
+	<div class="background-grain">
 		
-			<div class="nav-flex">
-				<div class="red-underline"><a href="#work"><p>work</p></a></div>
-				<a href="#certificates"><p>certificates</p></a>
-				<a href="mailto:alexanderrmurdock@gmail.com"><div class="right-p">contact me</div></a>
-			</div>
-		</div>
-	
-		<!-- main -->
-		<div class="main-wrapper">	
-			<div class="left-side-main">
-				<div class="image-container">
-					<img class="american-fork-pic" src="images/american-fork-pic-b&w.jpg" alt="very handsome pic of me!"/>
+			<div class="nav">
+				<div class="nav-left" id="#top">
+					Alexander Murdock<br>
+					<p>Web Developer</p><br>
+						<a href="https://www.instagram.com/murdock_electronics/?hl=en" target=”_blank”><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com/AlexanderMurd13" target=”_blank”><i class="fab fa-twitter"></i></a>
+						<a href="https://www.linkedin.com/in/alexander-murdock-814007204/" target=”_blank”><i class="fab fa-linkedin"></i></a>
+				</div>
+			
+				<div class="nav-flex">
+					<div class="red-underline"><a href="#work"><p>work</p></a></div>
+					<a href="#certificates"><p>certificates</p></a>
+					<a href="mailto:alexanderrmurdock@gmail.com"><div class="right-p">contact me</div></a>
 				</div>
 			</div>
-			
-			<div class="right-side-main">
-				<article>
-					<h3>Biographical</h3>
-					<p>
-					   My name is Alexander Murdock, Born on the 9th of April 2003. I live in Riverton, UT. I have lots of hobbies and lots of diffrent skills. One of my many hobbies is building costum computers. If you want to see them <a href="https://www.instagram.com/murdock_electronics/?hl=en">click here</a>. 
-					   I also really like cars. Especially old german ones, like old porsche 911's and BMW E30s.
-					</p>
-				
-				</article>
-			</div>
-		</div>
-<!-- work experince -->
-	<div class="top" id="work">
-		<h1> Selected Works: </h1> 
-	</div>
-	<div class="squares-wrapper" >
-			<div class="squares">
-				<div class="square">
-					<div class="img-wrapper">
-						<img src="images/work-section/rhs_auto.jpg" alt="Riverton High Schools Auto website">
+	
+			<!-- main -->
+			<div class="main-wrapper">	
+				<div class="left-side-main">
+					<div class="image-container">
+						<img class="american-fork-pic" src="images/american-fork-pic-b&w.jpg" alt="very handsome pic of me!"/>
 					</div>
-					<div class="box-1">
-						<div class="square-text-wrapper">
-							<a href="#" target=”_blank” alt="link to Riverton High Schools auto website">
-								<h1>RHS Auto Website</h1>
-							</a>
-							
-							<ul>
-								<li>HTML, CSS, SCSS, JS, PHP</li>
-								<li>My first real website</li>
-							</ul>
-						
+				</div>
+				
+				<div class="right-side-main">
+					<article>
+						<h3>Biographical</h3>
+						<p>
+						My name is Alexander Murdock, Born on the 9th of April 2003. I live in Riverton, UT. I have lots of hobbies and lots of diffrent skills. One of my many hobbies is building costum computers. If you want to see them <a href="https://www.instagram.com/murdock_electronics/?hl=en">click here</a>. 
+						I also really like cars. Especially old german ones, like old porsche 911's and BMW E30s.
+						</p>
+					
+					</article>
+				</div>
+			</div>
+			<!-- work experince -->
+			<div class="top" id="work">
+				<h1 class="slide-in from-bottom"> Selected Works: </h1> 
+			</div>
+			<div class="squares-wrapper" >
+				<div class="squares">
+					<div class="square">
+						<div class="img-wrapper">
+							<div class="slide-in from-bottom">
+								<img src="images/work-section/rhs_auto.jpg" alt="Riverton High Schools Auto website">
+							</div>
+						</div>
+						<div class="box-1">
+							<div class="square-text-wrapper">
+								<a href="#" target=”_blank” alt="link to Riverton High Schools auto website">
+									<h1 class="slide-in from-bottom">RHS Auto Website</h1>
+								</a>
+								
+								<ul class="slide-in from-bottom">
+									<li>HTML, CSS, SCSS, JS, PHP</li>
+									<li>My first real website</li>
+								</ul>
+								
+							</div>
 						</div>
 					</div>
-				</div>
-				
-				<div class="square">
-				
-					<div class="square-text-wrapper">
-						<a href="#" target=”_blank”>
-							<h1>stuff</h1>
-						</a>
-						<ul>
-							<li>Lorem ipsum dolor sit amet, veritus partiendo neglegentur.</li>
-						</ul>
-						
-					</div>
-				
-					<div class="img-wrapper">
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPKFBrvJLTed4eJgihPOpET-jDgpWUFCVLQ&usqp=CAU" alt="Fries">
-					</div>
-				</div>
-				
-				<div class="square">
-					<div class="img-wrapper">
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPKFBrvJLTed4eJgihPOpET-jDgpWUFCVLQ&usqp=CAU" alt="Fries">
-					</div>
 					
-					<div class="box-3">
+					<div class="square">
+						
 						<div class="square-text-wrapper">
 							<a href="#" target=”_blank”>
-								<h1>stuff</h1>
+								<div class="slide-in from-bottom">
+									<h1 class="text">stuff</h1>
+								</div>
 							</a>
-							
-							<ul>
+							<ul class="slide-in from-bottom">
 								<li>Lorem ipsum dolor sit amet, veritus partiendo neglegentur.</li>
 							</ul>
 							
 						</div>
-					</div>
-			</div>
-				
-				<div class="square">
-					<div class="box-4">
-						<div class="square-text-wrapper">
-							<a href="https://www.instagram.com/alexander._.murdock/?hl=en" target=”_blank”>
-								<h1>InstaPy bot</h1>
-							</a>
-							
-							<ul>
-								<li>Language: Python</li>
-								<li>Use: grows Instagram accounts</li>
-							</ul>
+						
+						<div class="img-wrapper">
+							<div class="slide-in from-bottom">
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPKFBrvJLTed4eJgihPOpET-jDgpWUFCVLQ&usqp=CAU" alt="Fries">
+							</div>		
 						</div>
-					</div>	
-
-					<div class="img-wrapper">
-						<img src="images/work-section/instapy.png" alt="InstaPy Logo">
+					</div>
+						
+						<div class="square">
+							<div class="img-wrapper">
+								<div class="slide-in from-bottom">
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPKFBrvJLTed4eJgihPOpET-jDgpWUFCVLQ&usqp=CAU" alt="Fries">
+								</div>
+							</div>
+							
+							<div class="box-3">
+								<div class="square-text-wrapper">
+									<a href="#" target=”_blank”>
+										<h1 class="slide-in from-bottom">stuff</h1>
+									</a>
+									
+									<ul class="slide-in from-bottom">
+										<li>Lorem ipsum dolor sit amet, veritus partiendo neglegentur.</li>
+									</ul>
+									
+								</div>
+							</div>
 					</div>
 					
+						<div class="square">
+							<div class="box-4">
+								<div class="square-text-wrapper">
+									<a href="https://www.instagram.com/alexander._.murdock/?hl=en" target=”_blank”>
+										<h1 class="slide-in from-bottom">InstaPy bot</h1>
+									</a>
+									
+									<ul class="slide-in from-bottom">
+										<li>Language: Python</li>
+										<li>Use: grows Instagram accounts</li>
+									</ul>
+								</div>
+							</div>	
+
+							<div class="img-wrapper">
+								<div class="slide-in from-bottom">
+									<img src="images/work-section/instapy.png" alt="InstaPy Logo">
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				
+			</div>
+	
+			<!-- certificate section -->
+			<div class="certificate-top">
+				<h1 class="slide-in from-bottom">certifications:</h1>
+			</div>
+		
+		<div class="slide-in from-bottom">
+			<div class="certificates-section-wraper">
+					<!-- certficiate row1 -->
+					<div class="certficiate-tile-wrapper">
+						<div class="certficiate-tiles" id="secriuty">	
+							<div class="certficiate-overlay">
+								<div class="img-text">
+									MTA Secriuty Fundamentals
+								</div>
+							</div>
+						</div>
+						<div class="certficiate-tiles" id="js">
+							<div class="certficiate-overlay">
+								<div class="img-text">
+								MTA intro to Java Script 
+								</div>
+							</div>
+						</div>
+						<div class="certficiate-tiles" id="html5">
+							<div class="certficiate-overlay">
+								<div class="img-text">
+								MTA HTML5 
+								</div>
+							</div>
+						</div> 
+					</div>
+		
+				<!-- certficiate row2 -->
+					<div class="certficiate-tile-wrapper1">
+					<div class="certficiate-tiles" id="html-css">
+							<div class="certficiate-overlay">
+								<div class="img-text">
+									MTA HTML and CSS
+								</div>
+							</div>
+						</div>
+					<div class="certficiate-tiles" id="photoshop">
+							<div class="certficiate-overlay">
+								<div class="img-text">
+								Adobe Photoshop
+								</div>
+							</div>
+						</div>
+					<div class="certficiate-tiles" id="illustrator">
+							<div class="certficiate-overlay">
+								<div class="img-text">
+								Adobe illustrator
+								</div>
+							</div>
+						</div>
+				</div>
+		
 				</div>
 			</div>
-		</div>
+
+
+
 	
-	<!-- certificate section -->
-		<div class="certificate-top">
-			<h1 div="certificates">certifications:</h1>
-		</div>
+
+			<button type="button" onclick="getResolution();">Get Resolution</button>
+			<footer>
+				<div class="footer-text" id="contact"><a href="mailto:alexanderrmurdock@gmail.com">contact me</a></div>
+				<div class="footer-text" id="colored"><a href="#colored">colored</a></div>
+				<div class="footer-text" id="back-to-top"><a href="#top">top</a></div>
+			</footer>
 		
-		<div class="certificates-section-wraper">
-			     <!-- certficiate row1 -->
-				 <div class="certficiate-tile-wrapper">
-					<div class="certficiate-tiles" id="secriuty">
-						<div class="certficiate-overlay">
-							<div class="img-text">
-								MTA Secriuty Fundamentals
-							</div>
-						</div>
-					</div>
-					<div class="certficiate-tiles" id="js">
-						<div class="certficiate-overlay">
-							<div class="img-text">
-							   MTA intro to Java Script 
-							</div>
-						</div>
-					</div>
-					<div class="certficiate-tiles" id="html5">
-						<div class="certficiate-overlay">
-							<div class="img-text">
-							   MTA HTML5 
-							</div>
-						</div>
-					</div> 
-				</div>
 	
-			 <!-- certficiate row2 -->
-				<div class="certficiate-tile-wrapper1">
-				  <div class="certficiate-tiles" id="html-css">
-						<div class="certficiate-overlay">
-							<div class="img-text">
-								MTA HTML and CSS
-							</div>
-						</div>
-					</div>
-				   <div class="certficiate-tiles" id="photoshop">
-						<div class="certficiate-overlay">
-							<div class="img-text">
-							   Adobe Photoshop
-							</div>
-						</div>
-					</div>
-				   <div class="certficiate-tiles" id="illustrator">
-						<div class="certficiate-overlay">
-							<div class="img-text">
-							   Adobe illustrator
-							</div>
-						</div>
-					</div>
-			   </div>
-	
-		</div>
-
-
-
-
-		<button type="button" onclick="getResolution();">Get Resolution</button>
-	<footer>
-		<div class="footer-text" id="contact"><a href="mailto:alexanderrmurdock@gmail.com">contact me</a></div>
-		<div class="footer-text" id="colored"><a href="#colored">colored</a></div>
-		<div class="footer-text" id="back-to-top"><a href="#top">top</a></div>
-	</footer>
-</div>
-	
+	</div>	
 	<!-- Button fixed on bottom right corner of the page -->
 	
 	
 	<!-- scripts -->
 	<script src="js/main.js"></script>
-	<script src="js/back-to-top.js"></script>
+	<script src="js/scroll-efect.js"></script>
 	<script>
 		function getResolution() {
 			alert("Screen resolution is: " + screen.width + "x" + screen.height);
