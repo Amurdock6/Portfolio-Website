@@ -8,6 +8,16 @@
 	font-size: 4.3em;
 }
 
+a img {
+	transition: ease-in 0.5s;
+}
+
+a img:hover{
+	opacity: 30%;
+	flex-grow: 20px;
+	transition: ease-in 0.5s;
+}
+
 .squares-wrapper {
 	padding-bottom: 20px;
 }
@@ -68,6 +78,10 @@
 	color: #add8e6;
 }
 
+.box-1 li{
+	font-family: Helvetica, sans-serif;
+}
+
 .box-3 {
 	text-align: center;
 	color: #fff;
@@ -82,6 +96,10 @@
 	color: #add8e6;
 }
 
+.box-3 li{
+	font-family: Helvetica, sans-serif;
+}
+
 .box-4 {
 	color: #fff;
 }
@@ -94,4 +112,8 @@
 
 .box-4 h1:hover {		
 	color: #add8e6;
+}
+
+.box-4 li{
+	font-family: Helvetica, sans-serif;
 }

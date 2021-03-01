@@ -57,9 +57,8 @@ a:visited	{
 		justify-content: space-around;
 		padding-top: 86px;
 		margin-top: 200px;
-		box-shadow:  5px 5px 150px 40px #191a1d;
-		-webkit-box-shadow: inset 0px 50px 50px -14px #000000; 
-		box-shadow: inset 0px 50px 50px -14px #000000;
+		-webkit-box-shadow: inset 1px 40px 50px -13px #000000; 
+		box-shadow: inset 1px 40px 50px -13px #000000;
 		text-align: center;
 	}
 	
@@ -171,10 +170,11 @@ a:visited	{
 	.background-grain {
 		position: absolute;
 		width: 100vw;
-		height: 378%;
+		height: 419%;
 		overflow: hidden;
 		background: #000000;
-		box-shadow: inset 0px 150px 140px #191a1d;
+		-webkit-box-shadow: inset -50px 300px 100px -150px #191a1d; 
+		box-shadow: inset -50px 300px 100px -150px #191a1d;
 	  }
 }
 
@@ -186,7 +186,8 @@ a:visited	{
 		height: 527%;
 		overflow: hidden;
 		background: #000000;
-		box-shadow: inset 0px 150px 140px #191a1d;
+		-webkit-box-shadow: inset 0px 280px 90px -8px #191a1d; 
+		box-shadow: inset 0px 280px 90px -8px #191a1d;
 	  }
 
 }
@@ -196,10 +197,11 @@ a:visited	{
 	.background-grain {
 		position: absolute;
 		width: 100vw;
-		height: 490%;
+		height: 384%;
 		overflow: hidden;
 		background: #000000;
-		box-shadow: inset 0px 150px 140px #191a1d;
+		-webkit-box-shadow: inset 0px 280px 90px -8px #191a1d; 
+		box-shadow: inset 0px 280px 90px -8px #191a1d;
 	  }
 
 }
