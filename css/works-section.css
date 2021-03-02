@@ -18,6 +18,26 @@ a img:hover{
 	transition: ease-in 0.5s;
 }
 
+/* Rotates the Visit me png on the work section */
+.rotate {
+	animation: rotation 8s infinite linear;
+	opacity: 0;
+  }
+  
+  .rotate:hover {
+   opacity: 1;
+	transition: 0.4s
+  }
+  @keyframes rotation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
+  
+
 .squares-wrapper {
 	padding-bottom: 20px;
 }
@@ -32,7 +52,7 @@ a img:hover{
 	color: #fff;
 }
 
-.square > .img-wrapper img {
+ #riv,#hvms,#box-3,#instapy {
     border: 4px solid #191a1d;
 	border-radius: 5px 5px 5px 5px;  
 }
