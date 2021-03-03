@@ -83,6 +83,7 @@
     z-index: 1;
     opacity: 0;
     transition: ease-in 0.7s;
+    cursor: zoom-in;
 }
 
 .certficiate-tiles:hover .certficiate-overlay {
@@ -94,6 +95,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.img-enlargeable {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .75);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: ease-in 0.7s;
 }
 
 /* monitors */

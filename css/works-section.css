@@ -19,15 +19,38 @@ a img:hover{
 }
 
 /* Rotates the Visit me png on the work section */
-.rotate {
-	animation: rotation 8s infinite linear;
+.rotate svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+    transform-origin: 50% 50%;
 	opacity: 0;
+	width: 180px;
+	position: absolute;
+	left: 700px;
+	top: 100px;
   }
   
-  .rotate:hover {
+  .rotate svg:hover {
    opacity: 1;
-	transition: 0.4s
+   transition: 0.5s
   }
+
+  .rotate-right svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+    transform-origin: 50% 50%;
+	opacity: 0;
+	width: 180px;
+	position: absolute;
+	top: 107px;
+	left: -90px;
+  }
+  
+  .rotate-right svg:hover  {
+   opacity: 1;
+   transition: 0.5s
+  }
+
   @keyframes rotation {
 	from {
 	  transform: rotate(0deg);
@@ -36,7 +59,9 @@ a img:hover{
 	  transform: rotate(359deg);
 	}
   }
-  
+
+
+
 
 .squares-wrapper {
 	padding-bottom: 20px;
