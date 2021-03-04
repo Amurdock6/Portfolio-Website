@@ -26,7 +26,7 @@ a img:hover{
 	opacity: 0;
 	width: 180px;
 	position: absolute;
-	left: 700px;
+	left: 545px;
 	top: 100px;
   }
   
@@ -59,10 +59,7 @@ a img:hover{
 	  transform: rotate(359deg);
 	}
   }
-
-
-
-
+  
 .squares-wrapper {
 	padding-bottom: 20px;
 }

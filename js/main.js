@@ -27,3 +27,32 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
       if(e.key==='Escape'){ removeModal(); } 
     });
 });
+
+//Changes images between black and white and colored
+function newfunction() {
+var imageSources = ["images/american-fork-pic.jpg","images/american-fork-pic-b&w.jpg"]
+    var buttons = document.getElementsByClassName("change-image")[0];
+    var index = 0;
+
+      buttons.addEventListener('click', function() {
+        if (index === imageSources.length) {
+          index = 0;
+        }
+            
+        document.getElementById("american-fork").src = imageSources[index];
+        index++;
+    });
+}
+    //changes hidden valley middle
+ var imageSources1 = ["images/work-section/hidden-valley.jpeg","images/work-section/hidden-valley-black-white.jpg"]
+    var buttons = document.getElementsByClassName("change-image")[0];
+    var index = 0;
+    
+    buttons.addEventListener('click', function() {
+      if (index === imageSources1.length) {
+        index = 0;
+      }
+         
+     document.getElementById("hvms").src = imageSources1[index];
+     index++;
+ });
