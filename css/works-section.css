@@ -24,10 +24,6 @@ a img:hover{
 	transition: 0.5s;
     transform-origin: 50% 50%;
 	opacity: 0;
-	width: 180px;
-	position: absolute;
-	left: 545px;
-	top: 100px;
   }
   
   .rotate svg:hover {
@@ -40,10 +36,6 @@ a img:hover{
 	transition: 0.5s;
     transform-origin: 50% 50%;
 	opacity: 0;
-	width: 180px;
-	position: absolute;
-	top: 107px;
-	left: -90px;
   }
   
   .rotate-right svg:hover  {

@@ -72,7 +72,20 @@
 	}
 
 /* work area */
+.rotate svg
+{
+	width: 180px;
+	position: absolute;
+	left: 545px;
+	top: 100px;
+}
 
+.rotate-right svg{
+	width: 180px;
+	position: absolute;
+	top: 107px;
+	left: -90px;
+}
 .square .box-3 {
 		padding-left: 230px;
 		text-align: left;
@@ -238,14 +251,14 @@
 	}
 
 	/* work area */
-	.rotate svg {
+	  .rotate svg {
 		animation: rotation 12s infinite linear;
 		transition: 0.5s;
 		transform-origin: 50% 50%;
 		opacity: 0;
 		width: 180px;
 		position: absolute;
-		left: 545px;
+		left: 770px;
 		top: 100px;
 	  }
 	
@@ -552,13 +565,32 @@
 h3	{
 	font-size: 1.5em;
 	padding-top: 69px;
-	padding-bottom: 3px;
+	padding-bottom: 0px;
 	margin-bottom: 15px;
 	border-bottom: 4px solid #ffffff;
-	width: 32%;
+	width: 36.5%;
 }
 
 /* work area */
+.rotate svg {
+	animation: rotation 12s infinite linear;
+		transition: 0.5s;
+		transform-origin: 50% 50%;
+		opacity: 0;
+		width: 180px;
+		position: absolute;
+		left: 545px;
+		top: 100px;
+}
+
+
+.rotate-right svg{
+	width: 180px;
+	position: absolute;
+	top: 107px;
+	left: -90px;
+}
+
 	.top h1 {
 		color: #fff;
 		display: flex;
@@ -2528,6 +2560,29 @@ footer #colored {
 	}
 
 	/* Work Section*/
+	.rotate svg {
+		animation: rotation 12s infinite linear;
+		transition: 0.5s;
+		transform-origin: 50% 50%;
+		opacity: 1;
+		width: 100px;
+		position: absolute;
+		left: -38px;
+		top: 70px;
+	  }
+	
+	  .rotate-right svg {
+		animation: rotation 12s infinite linear;
+		transition: 0.5s;
+		transform-origin: 50% 50%;
+		opacity: 1;
+		width: 100px;
+		position: absolute;
+		top: 70px;
+		left: -38px;
+	  }
+
+
 #work h1 {
 	color: #fff;
 	display: flex;
