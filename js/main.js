@@ -28,30 +28,89 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
     });
 });
 
-//Changes images between black and white and colored
 var imageSources = ["images/american-fork-pic.jpg","images/american-fork-pic-b&w.jpg"]
-    var buttons = document.getElementsByClassName("change-image")[0];
-    var index = 0;
+var buttons = document.getElementsByClassName("change-image")[0];
 
-      buttons.addEventListener('click', function() {
-        if (index === imageSources.length) {
-          index = 0;
-        }
-            
-        document.getElementById("american-fork").src = imageSources[index];
-        index++;
-    });
-
-    //changes hidden valley middle
+//work section
 var imageSources1 = ["images/work-section/hidden-valley.jpeg","images/work-section/hidden-valley-black-white.jpg"]
-    var buttons = document.getElementsByClassName("change-image")[0];
-    var index = 0;
-    
-    buttons.addEventListener('click', function() {
-      if (index === imageSources1.length) {
-        index = 0;
-      }
-         
-     document.getElementById("hvms").src = imageSources1[index];
-     index++;
- });
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources2 = ["images/work-section/rhs-auto-color.jpg","images/work-section/rhs_auto.jpg"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources3 = ["#","#"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources4 = ["images/work-section/instapy-colored.png","images/work-section/instapy.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
+
+//certificates
+var imageSources5 = ["..images/certificates/secriuty-fundamentals-certificate.png","..images/certificates/secriuty-fundamentals-certificate-black-white.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources6 = ["",""];
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources7 = ["",""];
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources8 = ["",""];
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources9 = ["",""];
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources10 = ["",""];
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources11 = ["",""];
+var buttons = document.getElementsByClassName("change-image")[0];
+
+var index = 0;
+var indexOne = 0;
+var indexTwo = 0;
+var indexThree = 0;
+var indexFour = 0;
+var indexFive = 0;
+var indexSix = 0;
+var indexSeven = 0;
+var indexEight = 0;
+var indexNine = 0;
+var indexTen = 0;
+var indexEleven = 0;
+
+
+buttons.addEventListener('click', function() {
+  if (index === imageSources1.length) {
+    index = 0;
+  }
+     
+   document.getElementById("hvms").src = imageSources1[index];
+   index++;
+   if (indexOne === imageSources.length) {
+      indexOne = 0;
+    }
+        
+    document.getElementById("american-fork").src = imageSources[indexOne];
+    indexOne++;
+    if (indexTwo === imageSources2.length) {
+      indexTwo = 0;
+  }
+
+    document.getElementById("riv").src = imageSources2[indexTwo];
+    indexTwo++;
+    if (indexThree === imageSources3.length) {
+      indexThree = 0;
+    }
+
+    document.getElementById("box-3").src = imageSources3[indexThree];
+    indexThree++;
+    if (indexFour === imageSources4.length) {
+      indexFour = 0;
+    }
+
+    document.getElementById("instapy").src = imageSources4[indexFour];
+    indexFour++;
+    if (indexFive === imageSources5.length) {
+      indexFive = 0;
+    }
+
+    document.getElementById("secriuty1").src = imageSources5[indexFive];
+    indexFive++;
+    if (indexSix === imageSources6.length) {
+      indexSix = 0;
+    }
+
+    document.getElementById("secriuty").src = imageSources5[indexFive];
+});

@@ -76,7 +76,7 @@
 {
 	width: 180px;
 	position: absolute;
-	left: 545px;
+	left: 692px;
 	top: 100px;
 }
 
@@ -1549,7 +1549,28 @@ h3	{
 		font-family: "fatboy-slim";
 		font-size: 1.0em;
 	}
-
+	
+	.rotate svg {
+		animation: rotation 12s infinite linear;
+		transition: 0.5s;
+		transform-origin: 50% 50%;
+		opacity: 1;
+		width: 100px;
+		position: absolute;
+		left: -38px;
+		top: 70px;
+	  }
+	
+	  .rotate-right svg {
+		animation: rotation 12s infinite linear;
+		transition: 0.5s;
+		transform-origin: 50% 50%;
+		opacity: 1;
+		width: 100px;
+		position: absolute;
+		top: 70px;
+		left: -38px;
+	  }
 
 	.squares-wrapper > .squares > .square {
 		width: 100vh;
@@ -1746,6 +1767,27 @@ h3	{
 	font-size: 1.9em;
 }
 
+.rotate svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	left: -38px;
+	top: 70px;
+  }
+
+  .rotate-right svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	top: 70px;
+	left: -38px;
+  }
 
 .squares-wrapper > .squares > .square {
 	width: 100vh;
@@ -2151,6 +2193,28 @@ footer #colored {
 		font-family: "fatboy-slim";
 		font-size: 1.0em;
 	}
+
+	.rotate svg {
+		animation: rotation 12s infinite linear;
+		transition: 0.5s;
+		transform-origin: 50% 50%;
+		opacity: 1;
+		width: 100px;
+		position: absolute;
+		left: -38px;
+		top: 70px;
+	  }
+	
+	  .rotate-right svg {
+		animation: rotation 12s infinite linear;
+		transition: 0.5s;
+		transform-origin: 50% 50%;
+		opacity: 1;
+		width: 100px;
+		position: absolute;
+		top: 70px;
+		left: -38px;
+	  }
 
 	.squares-wrapper > .squares > .square	{
 		display: block;
@@ -2942,6 +3006,28 @@ footer #colored {
 	font-size: 1.7em;
 }
 
+.rotate svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	left: -38px;
+	top: 70px;
+  }
+
+  .rotate-right svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	top: 70px;
+	left: -38px;
+  }
+
 .squares-wrapper {
 	width: 95%;
 	padding-bottom: 20px;
@@ -3290,6 +3376,28 @@ footer #colored {
 	font-size: 1.5em;
 }
 
+.rotate svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	left: -38px;
+	top: 70px;
+  }
+
+  .rotate-right svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	top: 70px;
+	left: -38px;
+  }
+
 .squares-wrapper {
 	width: 95%;
 	padding-bottom: 20px;
@@ -3627,6 +3735,28 @@ footer #colored {
 	font-family: "fatboy-slim";
 	font-size: 1.3em;
 }
+
+.rotate svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	left: -38px;
+	top: 70px;
+  }
+
+  .rotate-right svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	transform-origin: 50% 50%;
+	opacity: 1;
+	width: 100px;
+	position: absolute;
+	top: 70px;
+	left: -38px;
+  }
 
 .squares-wrapper {
 	width: 95%;
