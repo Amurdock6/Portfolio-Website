@@ -35,6 +35,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.8s;
 }
 
 #js {
@@ -42,6 +43,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.8s;
 }
 
 #html5  {
@@ -49,6 +51,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.8s;
 }
 
 #html-css {
@@ -56,6 +59,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.8s;
 }
 
 #photoshop {
@@ -63,6 +67,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.8s;
 }
 
 #illustrator {
@@ -70,6 +75,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.8s;
 }
 
 .certficiate-overlay {
