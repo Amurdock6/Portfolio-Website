@@ -38,8 +38,24 @@
     transition: 0.8s;
 }
 
+#secriuty-color{
+    background-image: url("../images/certificates/secriuty-fundamentals-certificate.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
 #js {
     background-image: url("../images/certificates/js-certificate-black-white.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
+#js-color{
+    background-image: url("../images/certificates/js-certificate.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,8 +70,24 @@
     transition: 0.8s;
 }
 
+#html5-color {
+    background-image: url("../images/certificates/html5-certificate.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
 #html-css {
     background-image: url("../images/certificates/html-and-css-certificate-black-white.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
+#html-css-color {
+    background-image: url("../images/certificates/html-and-css-certificate.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,6 +102,14 @@
     transition: 0.8s;
 }
 
+#photoshop-color {
+    background-image: url("../images/certificates/photoshop-certificate.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
 #illustrator {
     background-image: url("../images/certificates/illustrator-certificate-black-white.png");
     background-size: cover;
@@ -77,6 +117,40 @@
     background-repeat: no-repeat;
     transition: 0.8s;
 }
+
+#illustrator-color {
+    background-image: url("../images/certificates/illustrator-certificate.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
+/* off of stack */
+.btn {
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    background-color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn:hover {
+    background: #444;
+    color: #fff;
+  }
+  .btn .checkbox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80px;
+    height: 40px;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
 
 .certficiate-overlay {
     position: absolute;

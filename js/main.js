@@ -41,35 +41,12 @@ var buttons = document.getElementsByClassName("change-image")[0];
 var imageSources4 = ["images/work-section/instapy-colored.png","images/work-section/instapy.png"]
 var buttons = document.getElementsByClassName("change-image")[0];
 
-//certificates
-var imageSources5 = ["images/certificates/secriuty-fundamentals-certificate.png","images/certificates/secriuty-fundamentals-certificate-black-white.png"]
-var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources6 = ["",""]
-var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources7 = ["",""]
-var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources8 = ["",""]
-var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources9 = ["",""]
-var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources10 = ["",""]
-var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources11 = ["",""]
-var buttons = document.getElementsByClassName("change-image")[0];
-
 var index = 0;
 var indexOne = 0;
 var indexTwo = 0;
 var indexThree = 0;
 var indexFour = 0;
 var indexFive = 0;
-var indexSix = 0;
-var indexSeven = 0;
-var indexEight = 0;
-var indexNine = 0;
-var indexTen = 0;
-var indexEleven = 0;
-
 
 buttons.addEventListener('click', function() {
   if (index === imageSources1.length) {
@@ -109,10 +86,23 @@ buttons.addEventListener('click', function() {
 
 //changes certificates color
 $("button").click(function(){
+
+  const button = $(this).parent('button');
+
+if($(button).find('.checkbox').is(':checked') ) {
   $("#secriuty").css({"background-image": "url('images/certificates/secriuty-fundamentals-certificate.png')"}), 
   $("#js").css({"background-image": "url('images/certificates/js-certificate.png')"}),
   $("#html5").css({"background-image": "url('images/certificates/html5-certificate.png')"}),
   $("#html-css").css({"background-image": "url('images/certificates/html-and-css-certificate.png')"}),
   $("#photoshop").css({"background-image": "url('images/certificates/photoshop-certificate.png')"}),
   $("#illustrator").css({"background-image": "url('images/certificates/illustrator-certificate.png')"})
+} else {
+  $("#secriuty").css({"background-image": "url('images/certificates/secriuty-fundamentals-certificate-black-white.png')"}), 
+  $("#js").css({"background-image": "url('images/certificates/js-certificate-black-white.png')"}),
+  $("#html5").css({"background-image": "url('images/certificates/html5-certificate-black-white.png')"}),
+  $("#html-css").css({"background-image": "url('images/certificates/html-and-css-certificate-black-white.png')"}),
+  $("#photoshop").css({"background-image": "url('images/certificates/photoshop-certificate-black-white.png')"}),
+  $("#illustrator").css({"background-image": "url('images/certificates/illustrator-certificate-black-white.png')"})
+}
+
 });
