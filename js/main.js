@@ -28,6 +28,7 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
     });
 });
 
+//change images color
 var imageSources = ["images/american-fork-pic.jpg","images/american-fork-pic-b&w.jpg"]
 var buttons = document.getElementsByClassName("change-image")[0];
 
@@ -40,7 +41,8 @@ var imageSources3 = ["#","#"]
 var buttons = document.getElementsByClassName("change-image")[0];
 var imageSources4 = ["images/work-section/instapy-colored.png","images/work-section/instapy.png"]
 var buttons = document.getElementsByClassName("change-image")[0];
-//enlargable photos
+
+//enlargable certificates
 var imageSources5 = ["images/certificates/photoshop-certificate.png","images/certificates/photoshop-certificate-black-white.png"]
 var buttons = document.getElementsByClassName("change-image")[0];
 var imageSources6 = ["images/certificates/illustrator-certificate.png","images/certificates/illustrator-certificate-black-white.png"]
