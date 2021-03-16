@@ -40,6 +40,19 @@ var imageSources3 = ["#","#"]
 var buttons = document.getElementsByClassName("change-image")[0];
 var imageSources4 = ["images/work-section/instapy-colored.png","images/work-section/instapy.png"]
 var buttons = document.getElementsByClassName("change-image")[0];
+//enlargable photos
+var imageSources5 = ["images/certificates/photoshop-certificate.png","images/certificates/photoshop-certificate-black-white.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources6 = ["images/certificates/illustrator-certificate.png","images/certificates/illustrator-certificate-black-white.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources7 = ["images/certificates/secriuty-fundamentals-certificate.png","images/certificates/secriuty-fundamentals-certificate-black-white.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources8 = ["images/certificates/js-certificate.png","images/certificates/js-certificate-black-white.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources9 = ["images/certificates/html5-certificate.png","images/certificates/html5-certificate-black-white.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
+var imageSources10 = ["images/certificates/html-and-css-certificate.png","images/certificates/html-and-css-certificate-black-white.png"]
+var buttons = document.getElementsByClassName("change-image")[0];
 
 var index = 0;
 var indexOne = 0;
@@ -47,6 +60,11 @@ var indexTwo = 0;
 var indexThree = 0;
 var indexFour = 0;
 var indexFive = 0;
+var indexSix = 0;
+var indexSeven = 0;
+var indexEight = 0;
+var indexNine = 0;
+var indexTen = 0;
 
 buttons.addEventListener('click', function() {
   if (index === imageSources1.length) {
@@ -82,27 +100,59 @@ buttons.addEventListener('click', function() {
     if (indexFive === imageSources5.length) {
       indexFive = 0;
     }
+
+    document.getElementById("photoshop-enlarge").src = imageSources5[indexFive];
+    indexFive++;
+    if (indexSix === imageSources6.length) {
+      indexSix = 0;
+    }
+
+    document.getElementById("illustrator-enlarge").src = imageSources6[indexSix];
+    indexSix++;
+    if (indexSeven === imageSources7.length) {
+      indexSeven = 0;
+    }
+
+    document.getElementById("secriuty-enlarge").src = imageSources7[indexSeven];
+    indexSeven++;
+    if (indexEight === imageSources8.length) {
+      indexEight = 0;
+    }
+
+    document.getElementById("js-enlarge").src = imageSources8[indexEight];
+    indexEight++;
+    if (indexNine === imageSources9.length) {
+      indexNine = 0;
+    }
+
+    document.getElementById("html5-enlarge").src = imageSources9[indexNine];
+    indexNine++;
+    if (indexTen === imageSources10.length) {
+      indexTen = 0;
+    }
+
+    document.getElementById("html-css-enlarge").src = imageSources10[indexTen];
+    indexTen++;
 });
 
 //changes certificates color
-$("button").click(function(){
-
-  const button = $(this).parent('button');
+$('.checkbox').click(function(){
+  const button = $(this).parent('#button');
 
 if($(button).find('.checkbox').is(':checked') ) {
-  $("#secriuty").css({"background-image": "url('images/certificates/secriuty-fundamentals-certificate.png')"}), 
-  $("#js").css({"background-image": "url('images/certificates/js-certificate.png')"}),
-  $("#html5").css({"background-image": "url('images/certificates/html5-certificate.png')"}),
-  $("#html-css").css({"background-image": "url('images/certificates/html-and-css-certificate.png')"}),
-  $("#photoshop").css({"background-image": "url('images/certificates/photoshop-certificate.png')"}),
-  $("#illustrator").css({"background-image": "url('images/certificates/illustrator-certificate.png')"})
+  $("#secriuty").css({"background-image": "url('images/certificates/secriuty-fundamentals-certificate.png"}), 
+  $("#js").css({"background-image": "url('images/certificates/js-certificate.png"}),
+  $("#html5").css({"background-image": "url('images/certificates/html5-certificate.png"}),
+  $("#html-css").css({"background-image": "url('images/certificates/html-and-css-certificate.png"}),
+  $("#photoshop").css({"background-image": "url('images/certificates/photoshop-certificate.png"}),
+  $("#illustrator").css({"background-image": "url('images/certificates/illustrator-certificate.png"})
 } else {
-  $("#secriuty").css({"background-image": "url('images/certificates/secriuty-fundamentals-certificate-black-white.png')"}), 
-  $("#js").css({"background-image": "url('images/certificates/js-certificate-black-white.png')"}),
-  $("#html5").css({"background-image": "url('images/certificates/html5-certificate-black-white.png')"}),
-  $("#html-css").css({"background-image": "url('images/certificates/html-and-css-certificate-black-white.png')"}),
-  $("#photoshop").css({"background-image": "url('images/certificates/photoshop-certificate-black-white.png')"}),
-  $("#illustrator").css({"background-image": "url('images/certificates/illustrator-certificate-black-white.png')"})
+  $(".secriuty").css({"background-image": "url('images/certificates/secriuty-fundamentals-certificate-black-white.png"}), 
+  $(".js").css({"background-image": "url('images/certificates/js-certificate-black-white.png"}),
+  $(".html5").css({"background-image": "url('images/certificates/html5-certificate-black-white.png"}),
+  $(".html-css").css({"background-image": "url('images/certificates/html-and-css-certificate-black-white.png"}),
+  $(".photoshop").css({"background-image": "url('images/certificates/photoshop-certificate-black-white.png"}),
+  $(".illustrator").css({"background-image": "url('images/certificates/illustrator-certificate-black-white.png"})
 }
 
 });

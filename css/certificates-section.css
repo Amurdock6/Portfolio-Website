@@ -126,21 +126,20 @@
     transition: 0.8s;
 }
 
-/* off of stack */
 .btn {
-    width: 80px;
+    width: 210px;
     height: 40px;
     margin: 10px;
-    background-color: #999;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .btn:hover {
-    background: #444;
-    color: #fff;
+
+  .btn:hover{
+    width: 210px;
   }
-  .btn .checkbox {
+  
+   .checkbox {
     position: absolute;
     left: 0;
     right: 0;
@@ -150,6 +149,10 @@
     z-index: 9;
     cursor: pointer;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
+
+  .checkbox{
+    background-color: #191a1d;
   }
 
 .certficiate-overlay {
