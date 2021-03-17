@@ -6,6 +6,35 @@ window.addEventListener('load', () => {
         }, 0 );
 });
 
+//makes the visit me svg visable on hover over work section images
+$("#riv").mouseover(function(){
+  $("#svg-1 svg").css("opacity", "1");
+});
+$("#riv").mouseout(function(){
+  $("#svg-1 svg").css("opacity", "0");
+});
+
+$("#hvms").mouseover(function(){
+  $("#svg-2 svg").css("opacity", "1");
+});
+$("#hvms").mouseout(function(){
+  $("#svg-2 svg").css("opacity", "0");
+});
+
+$("#box-3").mouseover(function(){
+  $("#svg-3 svg").css("opacity", "1");
+});
+$("#box-3").mouseout(function(){
+  $("#svg-3 svg").css("opacity", "0");
+});
+
+$("#instapy").mouseover(function(){
+  $("#svg-4 svg").css("opacity", "1");
+});
+$("#instapy").mouseout(function(){
+  $("#svg-4 svg").css("opacity", "0");
+});
+
 //image on click fill screen
 $('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
     var src = $(this).attr('src');
@@ -24,9 +53,11 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
     }).appendTo('body');
     //handling ESC
     $('body').on('keyup.modal-close', function(e){
-      if(e.key==='Escape'){ removeModal(); } 
+      if(e.key==='Escape'){ removeModal(); }
     });
 });
+
+
 
 //change images color
 var imageSources = ["images/american-fork-pic.jpg","images/american-fork-pic-b&w.jpg"]
