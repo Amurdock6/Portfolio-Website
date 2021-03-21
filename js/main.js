@@ -51,7 +51,7 @@ $('img[data-enlargeable]').addClass('img-enlargeable img-background').click(func
         top:'10%', left:'0',
         cursor: 'zoom-out'
     }).click(function(){
-        removeModal();
+        removeModal(),removeBackground();
     }).appendTo('body');
     //handling ESC
     $('body').on('keyup.modal-close', function(e){
@@ -68,8 +68,7 @@ $('img[data-enlargeable]').addClass('img-enlargeable img-background').click(func
       top:'0', left:'0',
       cursor: 'zoom-out'
   }).click(function(){
-      removeBackground();
-  }).appendTo('body');
+  }).appendTo('body');  
   //handling ESC
   $('body').on('keyup.background-close', function(e){
     if(e.key==='Escape'){ removeBackground(); }
