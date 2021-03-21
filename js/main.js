@@ -35,13 +35,15 @@ $("#instapy").mouseout(function(){
   $("#svg-4 svg").css("opacity", "0");
 });
 
+
 //image on click fill screen
-$('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
+$('img[data-enlargeable]').addClass('img-enlargeable img-background').click(function(){
     var src = $(this).attr('src');
     var modal;
+    var background;
     function removeModal(){ modal.remove(); $('body').off('keyup.modal-close'); }
     modal = $('<div>').css({
-        background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+        background: 'RGBA(0,0,0,0) url('+src+') no-repeat center',
         backgroundSize: 'contain',
         width:'100%', height:'80%',
         position:'fixed',
@@ -55,8 +57,24 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
     $('body').on('keyup.modal-close', function(e){
       if(e.key==='Escape'){ removeModal(); }
     });
-});
 
+    function removeBackground(){ background.remove(); $('body').off('keyup.background-close'); }
+    background = $('<div>').css({
+      background: 'RGBA(0,0,0,.5)',
+      backgroundSize: 'contain',
+      width:'100%', height:'100%',
+      position:'fixed',
+      zIndex:'9000',
+      top:'0', left:'0',
+      cursor: 'zoom-out'
+  }).click(function(){
+      removeBackground();
+  }).appendTo('body');
+  //handling ESC
+  $('body').on('keyup.background-close', function(e){
+    if(e.key==='Escape'){ removeBackground(); }
+  });
+});
 
 
 //change images color
@@ -68,7 +86,7 @@ var imageSources1 = ["images/work-section/hidden-valley.jpeg","images/work-secti
 var buttons = document.getElementsByClassName("change-image")[0];
 var imageSources2 = ["images/work-section/rhs-auto-color.jpg","images/work-section/rhs_auto.jpg"]
 var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources3 = ["#","#"]
+var imageSources3 = ["images/work-section/axis.png","images/work-section/axis-black-white.png"]
 var buttons = document.getElementsByClassName("change-image")[0];
 var imageSources4 = ["images/work-section/instapy-colored.png","images/work-section/instapy.png"]
 var buttons = document.getElementsByClassName("change-image")[0];
