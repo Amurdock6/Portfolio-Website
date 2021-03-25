@@ -76,17 +76,6 @@
 	}
 }
 
-/* nav load */
-@keyframes nav-load {
-	0% {
-	transform: translateY(-100%);
-	}
-	
-	100% {
-	transform: translateY(0);
-	}
-}
-
 /* underline nav text */
 .nav .nav-flex p:before  {
   content: "";

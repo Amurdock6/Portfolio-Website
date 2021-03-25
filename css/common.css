@@ -16,6 +16,7 @@ body	{
 	overflow-y: scroll;
 	overflow-x: hidden;
 	cursor: crosshair;
+	background-color: #000;
 }
 
 p	{
