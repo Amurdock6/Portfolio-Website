@@ -13,9 +13,9 @@ a img {
 }
 
 a img:hover{
-	opacity: 30%;
+	opacity: 50%;
 	flex-grow: 20px;
-	transition: ease-in 0.5s;
+	transition: ease-in 0.3s;
 }
 
 /* Rotates the Visit me png on the work section */
