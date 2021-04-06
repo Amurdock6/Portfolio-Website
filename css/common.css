@@ -48,82 +48,87 @@ a:visited	{
 	color: #add8e6;
 	}
 
-	footer	{
-		background-color: #191a1d;
-		color: #fff;
-		font-size: 40px;
+
+	footer {
+		padding: 60px 0;
 		width: 100%;
-		height: 210px;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		padding-top: 86px;
-		margin-top: 200px;
-		-webkit-box-shadow: inset 5px 15px 38px 25px #000000; 
-		box-shadow: inset 5px 15px 38px 25px #000000;
-		text-align: center;
+		background-color: #fff;
+		font-size: 1.3em;
+		color: #000;
 	}
 	
 	footer a {
-		color: #fff;
-	}
-	
-	footer .footer-text a{
-		text-align: center;
-		transition: letter-spacing 0.5s;
-	}
-	
-	footer .footer-text a:hover{
-		color: #add8e6;
-		letter-spacing: 4px;
-	}
-	
-	footer .footer-text a:active	{
-		color: #fff;	
-		}
-		
-	footer a:visited	{
-		color: #fff;
-		}
-
-	.footer-text .change-image{
-		background-color: #191a1d;
-		color: #fff;
-		text-align: center;
+		color: #000;
 		text-decoration: none;
-		font-family: fatboy-slim;
-		font-size: 40px;
-		border: none;
-		transition: letter-spacing 0.5s;
-		cursor: pointer;
 	}
 
-	.footer-text .change-image:hover{
-		color: #add8e6;
-		letter-spacing: 4px;
+	footer a:visited {
+		color: #000;
+	}
+
+	footer li{
+		list-style: none;
 	}
 	
-	/* underline for footer text */
-	footer .footer-text a, .change-image {
+	.social {
+		position: absolute;
+		bottom: 130px;
+		left: 8%;
+	}
+	
+	
+	.social ul{
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+	}
+	
+	.social li {
+		padding-right: 3%;
+	}
+	
+	.links {
 		position: relative;
+		bottom: 0px;
+		right: 5%;
 	}
 	
-	footer .footer-text a:before, .change-image:before{
-	  content: "";
-	  position: absolute;
-	  width: 0;
-	  height: 5px;
-	  bottom: 0;
-	  left: 0;
-	  background-color: #add8e6;
-	  visibility: hidden;
-	  transition: all 0.4s ease-in-out;
+	.links ul{
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: row; 
 	}
 	
-	footer .footer-text a:hover:before, .change-image:hover:before{
-		visibility: visible;
+	.links li{
+		padding-right: 3%;
+	}
+	
+	/* link under line*/
+	.underline {
+		display: inline;
+		position: relative;
+		overflow: hidden;
+	  }
+	  .underline:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		width: 0;
+		bottom: -5px;
+		background: #000;
+		height: 4px;
+		transition-property: width;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-out;
+	  }
+	  .underline:hover:after,
+	  .underline:focus:after,
+	  .underline:active:after {
+		left: 0;
+		right: auto;
 		width: 100%;
-	}
+	  }
 	
 ::selection	{
 	background-color: #ffffff;
