@@ -127,16 +127,10 @@
 }
 
 .btn {
-    width: 210px;
-    height: 40px;
     margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .btn:hover{
-    width: 210px;
   }
   
    .checkbox {

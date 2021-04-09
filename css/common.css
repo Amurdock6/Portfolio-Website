@@ -77,7 +77,6 @@ a:visited	{
 		z-index: 2;
 	}
 	
-	
 	.social ul{
 		display: flex;
 		justify-content: flex-start;
@@ -92,6 +91,19 @@ a:visited	{
 		color: #000;
 	}
 	
+	.social-hover i {
+		transition: 0.6s;
+		padding-right: 5px;
+	}
+
+	.social-hover:hover i {
+		color: red;
+		font-size: 1.4em;
+		transition: 0.6s;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
 	.links {
 		position: relative;
 		bottom: 0px;
