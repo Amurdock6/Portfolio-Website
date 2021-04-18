@@ -53,7 +53,7 @@ a:visited	{
 		padding: 60px 0;
 		width: 100%;
 		background-color: #fff;
-		font-size: 1.3em;
+		font-size: 1.4em;
 		color: #000;
 	}
 	
@@ -97,7 +97,7 @@ a:visited	{
 	}
 
 	.social-hover:hover i {
-		color: red;
+		color: #add8e6;
 		font-size: 1.4em;
 		transition: 0.6s;
 		padding-right: 10px;
@@ -120,6 +120,11 @@ a:visited	{
 		padding-right: 3%;
 	}
 	
+	.links .top {
+		position: relative;
+		top: 0px;
+	}
+
 	/* link under line*/
 	.underline {
 		display: inline;
@@ -146,6 +151,38 @@ a:visited	{
 		right: auto;
 		width: 100%;
 	  }
+
+	  
+
+	  .change-image{
+		display: inline;
+		position: relative;
+		overflow: hidden;
+	  }
+
+	  .change-image:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		bottom: 3px;
+		width: 0;
+		bottom: -5px;
+		background: #000;
+		height: 4px;
+		transition-property: width;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-out;
+	  }
+	  .change-image:hover:after,
+	  .change-image:focus:after,
+	  .change-image:active:after {
+		left: 0;
+		right: auto;
+		width: 100%;
+	  }
+
+
 	
 ::selection	{
 	background-color: #ffffff;
@@ -246,6 +283,18 @@ a:visited	{
 }
 
 /* tablets */
+@media (min-width: 801px) and (max-width: 1119px){
+	.background-grain {
+		height: 268%;	
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+	.background-grain {
+		height: 317%;	
+	}
+}
+
 @media (min-width: 540px) and (max-width: 599px){
 	.background-grain {
 		height: 408%;	

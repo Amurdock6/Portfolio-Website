@@ -128,7 +128,6 @@
 
 .btn {
     margin: 10px;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -147,7 +146,7 @@
 
   .checkbox{
     background-color: #191a1d;
-    width: 200px;
+    width: 100%;
   }
 
 .certficiate-overlay {
