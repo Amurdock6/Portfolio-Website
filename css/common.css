@@ -289,6 +289,12 @@ a:visited	{
 	}
 }
 
+@media (device-width: 1024px) and (device-height: 768px){
+	.background-grain{
+		height: 348%;
+	}
+}
+
 @media (min-width: 600px) and (max-width: 800px){
 	.background-grain {
 		height: 317%;	
