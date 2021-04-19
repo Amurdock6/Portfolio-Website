@@ -309,6 +309,12 @@ a:visited	{
 
 
 /* Mobile */
+@media (device-width: 480px) and (device-height: 853px) {
+	.background-grain{
+		height: 334%;
+	}
+}
+
 @media (min-width: 410px) and (max-width: 414px){
 	.background-grain {
 		height: 384%;	
