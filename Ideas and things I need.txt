@@ -13,6 +13,8 @@
 -change the side drag to scrool
 -cool loading image.icon
 
+-on hover of porsche pop up a image of me by the GT3 RS
+
 
 scroolTo() use this for my pages links
 transform rotate = spiny cirlce things on patricks site
