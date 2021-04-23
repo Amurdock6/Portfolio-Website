@@ -94,7 +94,7 @@ a img:hover{
 .square > .square-text-wrapper li {
 	font-size: 1.2em;
 	font-family: Helvetica, sans-serif;
-	padding-top: 20px;
+	padding-top: 0px;
 }
 
 
