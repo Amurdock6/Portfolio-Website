@@ -1443,7 +1443,7 @@ h3	{
 	padding-bottom: 0px;
 	margin-bottom: 15px;
 	border-bottom: 4px solid #ffffff;
-	width: 34.5%
+	width: 37%;
 }
 
 /* work area */
@@ -1489,9 +1489,10 @@ h3	{
 	}
 
 	.square > .square-text-wrapper li{
-		position: absolute;
-		left: 40px;
-		top: 20px;
+		position: relative;
+		left: 130px;
+		top: 50px;
+		font-size: 1.1em !important;
 	}
 
 	.squares-wrapper {
