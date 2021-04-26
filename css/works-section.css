@@ -19,11 +19,12 @@ a img:hover{
 }
 
 /* Rotates the Visit me png on the work section */
-.rotate svg {
+.rotate svg{
 	animation: rotation 12s infinite linear;
 	transition: 0.5s;
-    transform-origin: 50% 50%;
 	opacity: 0;
+	margin-right: 0px;
+	margin-top: -100px;
   }
   
   .rotate svg:hover {
@@ -34,7 +35,6 @@ a img:hover{
   .rotate-right svg {
 	animation: rotation 12s infinite linear;
 	transition: 0.5s;
-    transform-origin: 50% 50%;
 	opacity: 0;
   }
   
