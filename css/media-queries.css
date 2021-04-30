@@ -74,6 +74,33 @@
 	.box-1 h1{
 		width: 190%;
 	}
+
+	#word-hover {
+		position: relative;
+		top: -64px;
+		left: 524px;
+		margin-bottom: -500px;
+	}
+
+	#p1  {
+		position: absolute;
+		top: 457px;
+		left: 2080px;
+	}
+
+	#p2{
+		position: absolute;
+		top: 489px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: absolute;
+		right: 1710px;
+		bottom: -593px;
+		width: 1150px;
+	}
+
 /* work area */
 .rotate svg
 {
@@ -288,6 +315,33 @@
 		font-family: 'monument', sans-serif;
 	}
 
+	#word-hover {
+		position: relative;
+		top: -64px;
+		left: 259px;
+		margin-bottom: -500px;
+	}
+
+	#p1     {
+		position: absolute;
+		top: 450px;
+		left: 1420px;
+	}
+
+	#p2{
+		position: absolute;
+		top: 480px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 1140px;
+		bottom: 220px;
+		width: 785px;
+	}
+
+
 	/* work area */
 	  .rotate svg {
 		animation: rotation 12s infinite linear;
@@ -497,6 +551,35 @@
     .background-grain {
 		height: 400%;
 	}
+
+	#word-hover {
+		position: absolute;
+		top: 392px;
+		left: 1046px;
+		margin-bottom: -500px;
+		font-size: 19px;
+	}
+
+	#p1     {
+		position: absolute;
+		top: 392px;
+		left: 1166px;
+		font-size: 19px;
+	}
+
+	#p2{
+		position: absolute;
+		top: 415px;
+		font-size: 19px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 1006px;
+		bottom: 140px;
+		width: 585px;
+	}
 	
 	h3 {
 		width: 30% !important;
@@ -666,6 +749,7 @@
 		   right: 99px;
 	  }
 
+
 /* main content */
 .image-container	{
 	padding-top: 69px;
@@ -695,7 +779,7 @@ h3	{
 	padding-bottom: 0px;
 	margin-bottom: 15px;
 	border-bottom: 4px solid #ffffff;
-	width: 36.5%;
+	width: 32.5%;
 }
 
 /* work area */
@@ -932,6 +1016,35 @@ h3	{
 		bottom: 0px;
 		right: 5%;
 	}
+
+	#word-hover {
+		position: absolute;
+		top: 392px;
+		left: 1154px;
+		margin-bottom: -500px;
+		font-size: 19px;
+	}
+
+	#p1     {
+		position: absolute;
+		top: 413px;
+		left: 710px;
+		font-size: 19px;
+	}
+
+	#p2{
+		position: absolute;
+		top: 432px;
+		font-size: 19px;
+	}
+
+	#word-hover:hover img {
+	    display: block;
+   		position: relative;
+    	right: 1115px;
+    	bottom: 140px;
+    	width: 550px;
+	}
 }
 
 @media (min-width: 1300px) and (max-width: 1399px){
@@ -1055,6 +1168,35 @@ h3	{
 	  .nav .nav-flex .right-p:hover:before, .nav .nav-flex .right-p:focus:before, .nav .nav-flex .right-p:active:before {
 		   right: 99px;
 	  }
+
+	  #word-hover {
+		position: absolute;
+		top: 412px;
+		left: 683px;
+		margin-bottom: -500px;
+		font-size: 19px;
+	}
+
+	#p1     {
+		position: absolute;
+		top: 413px;
+		left: 803px;
+		font-size: 19px;
+	}
+
+	#p2{
+		position: absolute;
+		top: 434px;
+		font-size: 19px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 644px;
+		bottom: 143px;
+		width: 550px;
+	}
 
 /* main content */
 .image-container	{
@@ -8696,6 +8838,83 @@ footer{
 		margin-left: -432px !important;
 	}
 	
+}
+
+@media (device-width: 360px) and (device-height: 726px){
+	
+	footer{
+		position: absolute;
+		bottom: 0;
+		font-size: 1em;
+	}
+   
+	.social {
+	   position: absolute;
+	   bottom: 24px; 
+	   left: 34%;
+	}
+   
+	.links {
+		position: relative;
+		bottom: 10px;
+		right: 2%;
+	}
+
+	.top h1{
+		padding-top: 50px !important;
+		padding-bottom: 40px !important;
+		font-size: 1.8em !important;
+	}
+
+	.squares-wrapper{
+		width: 26%;
+	}
+
+	.box-1 h1 {
+		padding-left: 54px;
+	}
+
+	.box-1 ul {
+		padding-left: 40px;
+	}
+
+	.square > .square-text-wrapper h1{
+		margin-right: 400px;
+	}
+
+	.square > .square-text-wrapper ul {
+		margin-left: -560px;
+	}
+
+	.box-3 h1{
+		padding-left: 0px;
+		position: relative;
+    	right: 3%;
+	}
+
+	.box-3 ul{
+		margin-left: -30px;
+	}
+
+	.square .box-4 .square-text-wrapper h1{
+		margin-left: -45px;
+	}
+
+	.square .box-4 .square-text-wrapper ul{
+		margin-left: 42px;
+	}
+
+	.square > .square-text-wrapper h1 {
+		margin-right: 400px !important;
+		position: relative;
+		top: 245px;
+	}
+	
+	.square > .square-text-wrapper ul	{
+		position: relative;
+		top: 255px;
+		margin-left: -372px !important;
+	}
 }
 
 @media (device-width: 360px) and (device-height: 640px) {
