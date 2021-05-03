@@ -80,6 +80,9 @@ $('img[data-enlargeable]').addClass('img-enlargeable img-background').click(func
 var imageSources = ["images/american-fork-pic.jpg","images/american-fork-pic-b&w.jpg"]
 var buttons = document.getElementsByClassName("change-image")[0];
 
+var imageSources11 = ["images/porsche.jpg","images/porsche-mono.jpg"]
+var buttons = document.getElementsByClassName("change-image")[0];
+
 //work section
 var imageSources1 = ["images/work-section/hidden-valley.jpeg","images/work-section/hidden-valley-black-white.jpg"]
 var buttons = document.getElementsByClassName("change-image")[0];
@@ -115,6 +118,7 @@ var indexSeven = 0;
 var indexEight = 0;
 var indexNine = 0;
 var indexTen = 0;
+var indexEleven = 0;
 
 buttons.addEventListener('click', function() {
   if (index === imageSources1.length) {
@@ -183,6 +187,12 @@ buttons.addEventListener('click', function() {
 
     document.getElementById("html-css-enlarge").src = imageSources10[indexTen];
     indexTen++;
+    if (indexEleven === imageSources11.length){
+      indexEleven = 0;
+    }
+
+    document.getElementById("porsche-pic").src= imageSources11[indexEleven];
+    indexEleven++;
 });
 
 //changes certificates color
