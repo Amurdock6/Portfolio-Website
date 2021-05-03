@@ -336,7 +336,7 @@
 	#word-hover:hover img {
 		display: block;
 		position: relative;
-		right: 1140px;
+		right: 1153px;
 		bottom: 220px;
 		width: 785px;
 	}
@@ -1791,6 +1791,38 @@ h3	{
 		}
 	}
 
+@media (device-width: 1280px) and (device-height: 1024px){
+	#word-hover {
+		font-size: 19px;
+		position: absolute;
+    	top: 414px;
+	}
+
+	#word-hover:hover img{
+		position: relative;
+		right: 610px;
+		bottom: 160px;
+		width: 575px;
+	}
+
+	#p1 {
+		font-size: 19px;
+		position: relative;
+   		bottom: 29px;
+   	 	left: 119px;
+	}
+
+	#p2	{
+		font-size: 19px;
+		position: relative;
+		bottom: 58px;
+	}
+
+	.background-grain {
+		height: 375%;
+	}
+}
+
 /* add for  in between tablets and monitors */
 @media (min-width: 1025px) and (max-width: 1278px){
 
@@ -2085,6 +2117,32 @@ h3	{
 			font-size: 1.2em;
 		}
 
+		#word-hover {
+			font-size: 19px;
+			position: absolute;
+			top: 389px;
+		}
+	
+		#word-hover:hover img{
+			position: relative;
+			right: 626px;
+			bottom: 190px;
+			width: 599px;
+		}
+	
+		#p1 {
+			font-size: 19px;
+			position: relative;
+			   bottom: 29px;
+				left: 119px;
+		}
+	
+		#p2	{
+			font-size: 19px;
+			position: relative;
+			bottom: 58px;
+		}
+
 /* footer */
 	footer {
 		position: absolute;
@@ -2115,6 +2173,33 @@ h3	{
 	h3{
 		width: 37%;
 	}
+
+	#word-hover {
+		font-size: 19px;
+		position: absolute;
+    	top: 414px;
+	}
+
+	#word-hover:hover img{
+		position: relative;
+		right: 610px;
+		bottom: 160px;
+		width: 575px;
+	}
+
+	#p1 {
+		font-size: 19px;
+		position: relative;
+   		bottom: 29px;
+   	 	left: 119px;
+	}
+
+	#p2	{
+		font-size: 19px;
+		position: relative;
+		bottom: 58px;
+	}
+
 }
 
 @media (device-width: 1024px) and (device-height: 576px){
@@ -2673,6 +2758,33 @@ h3	{
         left: -66px;
 	  }
 
+	  #word-hover {
+		font-size: 19px;
+		position: absolute;
+    	top: 414px;
+	}
+
+	#word-hover:hover img {
+		position: relative;
+		right: 626px;
+		bottom: 190px;
+		width: 599px;
+	}
+
+	#p1 {
+		font-size: 19px;
+		position: relative;
+   		bottom: 29px;
+   	 	left: 119px;
+	}
+
+	#p2	{
+		font-size: 19px;
+		position: relative;
+		bottom: 58px;
+	}
+
+
 	  /* certficate section*/
 	  .certificate-top {
 		padding-top: 0px;
@@ -2743,19 +2855,28 @@ h3	{
 		left: 420px;
 	}
 
-	#p1{
+	#word-hover:hover img {
+		position: relative;
+   	 	bottom: 460px;
+  	    width: 600px;
+    	height: 330px;
+    	right: 390px;
+	}
+
+	#p1 {
 		font-size: 0.85em;
 		position: relative;
 		bottom: 29px;
-		left: 20px;
+		left: 140px;
 	}
 
-	#p2{
+	#p2 {
 		font-size: 0.85em;
 		width: 80%;
 		position: relative;
 		bottom: 57px;
-		left: 29px;
+		left: 49px;
+		text-align: center;
 	}
 
 	.box-3 h1 {
@@ -4357,7 +4478,7 @@ footer {
 
 }
 
-@media (min-width: 512px) and (max-width: 717px) {
+@media (min-width: 511px) and (max-width: 717px) {
 	.nav	{
 		width: 100%;
 		margin-top: -20px;
@@ -5187,6 +5308,15 @@ footer{
 }
 
 	
+}
+
+@media (device-width: 512px) and (device-height: 717px){
+	#word-hover:hover img {
+		right: 27px;
+		bottom: 404px;
+		width: 487px;
+		height: 250px;
+	}
 }
 
 @media (device-width: 480px) and (device-height: 853px) {
