@@ -2,7 +2,6 @@
 .nav	{
 	width: 100%;
 	padding-top: 60px;
-	animation: nav-load 3575ms ease-in;
 	display: grid;
 	grid-template-columns: 50% 50%;
 }

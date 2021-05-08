@@ -12,14 +12,10 @@
 -load on scroll feature
 -change the side drag to scrool
 -cool loading image.icon
-
+-on hover of german ones pop up a image of me by the GT3 RS
 
 scroolTo() use this for my pages links
 transform rotate = spiny cirlce things on patricks site
-
-maybes
-=============================================================================================================================================
--have a form to contact me
 
 cool examples websites
 =========================================================================================================================================
@@ -35,8 +31,7 @@ http://rauhwelt-usa.com/roughworld/ /* Its rauh welt whats not to love. */
 https://www.jonathanglynnsmith.com/ /* awesome intro and cool slide show */
 http://mansourimoments.com/
 https://meesverberne.com/
-
-
+https://pleasuresnow.com/collections/shop?utm_source=google&utm_medium=cpc&utm_campaign=brand
 
 Things for my page
 ==============================================================================================================================================

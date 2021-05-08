@@ -4,6 +4,34 @@
 	padding-top: 30px;
 }
 
+/* pops up picture of me next to GT3 RS on hover */
+#word-hover{
+	transition: 0.8s;
+	font-family: 'monument', sans-serif;
+	color: #ffffff;
+	font-size: 29px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#word-hover:hover {
+	letter-spacing: 0.9px; 
+	transition: 0.6s;
+	color: #add8e6;
+}
+
+#word-hover img {
+	display:none;
+}
+
+#word-hover:hover img {
+	display: block;
+    position: relative;
+    right: 880px;
+    bottom: 260px;
+    width: 745px;
+}
+
 /* left side main */
 .left-side-main {
 	grid-column-start: 1;
@@ -49,62 +77,26 @@ article p {
 	font-family: 'monument', sans-serif;
 }
 
+#p1 {
+	margin-bottom: 30px;
+	overflow: hidden;
+	font-family: 'monument', sans-serif;
+	font-size: 26px;
+}
+
+#p2{
+	margin-bottom: 30px;
+	overflow: hidden;
+	font-family: 'monument', sans-serif;
+	font-size: 26px;
+}
+
 h3	{
-	font-size: 3em;
-	padding-top: 69px;
-	padding-bottom: 3px;
-	margin-bottom: 15px;
-	border-bottom: 6px solid #ffffff;
-	width: 40%;
-	
+	font-size: 2em;
+    padding-top: 69px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #ffffff;
+    width: 34.5%;
 }
 
-/* clock */
-.datetime{
-  color: #fff;
-  background: #000000;
-  font-family: "Segoe UI", sans-serif;
-  width: 340px;
-  padding: 15px 10px;
-  border: 3px solid #ffffff;
-  border-radius: 5px;
-  -webkit-box-reflect: below 4px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
-  transition: 0.5s;
-  transition-property: background, box-shadow;
-}
-
-.datetime:hover{
-  background: #191a1d;
-  box-shadow: 0 0 30px #191a1d;
-}
-
-.date{
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-.time{
-  font-size: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.time span:not(:last-child){
-  position: relative;
-  margin: 0 6px;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-.time span:last-child{
-  font-size: 40px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 10px;
-  padding: 0 5px;
-  border-radius: 3px;
-}

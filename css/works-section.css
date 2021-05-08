@@ -3,17 +3,56 @@
 	display: flex;
     justify-content: center;
     padding-top: 200px;
-	padding-bottom: 200px;
+	padding-bottom: 80px;
 	font-family: "fatboy-slim";
 	font-size: 4.3em;
 }
 
+a img {
+	transition: ease-in 0.5s;
+}
+
+a img:hover{
+	opacity: 50%;
+	flex-grow: 20px;
+	transition: ease-in 0.3s;
+}
+
+/* Rotates the Visit me png on the work section */
+.rotate svg{
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	opacity: 0;
+	margin-right: 0px;
+  }
+  
+  .rotate svg:hover {
+   opacity: 1;
+   transition: 0.5s
+  }
+
+  .rotate-right svg {
+	animation: rotation 12s infinite linear;
+	transition: 0.5s;
+	opacity: 0;
+  }
+  
+  .rotate-right svg:hover  {
+   opacity: 1;
+   transition: 0.5s
+  }
+
+  @keyframes rotation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
+  
 .squares-wrapper {
-	display: flex;
-	justify-content: center;
 	padding-bottom: 20px;
-	padding-left: 200px;
-	width: 80%;
 }
 
 .squares-wrapper > .squares {
@@ -21,23 +60,14 @@
 }
 
 .squares-wrapper > .squares > .square	{
-	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin-top: 0px;
 	color: #fff;
 }
 
-.square > .img-wrapper img {
-	width: 100%;
-    height: 200px; 
+ #riv,#hvms,#box-3,#instapy {
     border: 4px solid #191a1d;
 	border-radius: 5px 5px 5px 5px;  
-}
-
-.img-wrapper	{
-    margin-right: -175px;
-    padding-bottom: 110px;
-    
 }
 
 .square > .square-text-wrapper {
@@ -47,7 +77,6 @@
 	flex-direction: column;
 	padding: 0px;
 	margin-top: -220px;
-	padding-left: 150px;
 	padding-top: 50px;
 }
 
@@ -64,14 +93,60 @@
 .square > .square-text-wrapper li {
 	font-size: 1.2em;
 	font-family: Helvetica, sans-serif;
-	padding-top: 20px;
+	padding-top: 0px;
+}
+
+
+.box-1	{
+	display: block;
+	color: #fff;
+}
+
+.box-1 h1{
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+.box-1 h1:hover {		
+	color: #add8e6;
+}
+
+.box-1 li{
+	font-family: Helvetica, sans-serif;
 }
 
 .box-3 {
-	padding-left: 300px;
 	text-align: center;
+	color: #fff;
 }
 
 .box-3 h1{
 	padding-bottom: 15px;
+	color: #fff;
+}
+
+.box-3 h1:hover {		
+	color: #add8e6;
+}
+
+.box-3 li{
+	font-family: Helvetica, sans-serif;
+}
+
+.box-4 {
+	color: #fff;
+}
+
+.box-4 h1{
+	padding-bottom: 15px;
+	color: #fff;
+	text-align: center;
+}
+
+.box-4 h1:hover {		
+	color: #add8e6;
+}
+
+.box-4 li{
+	font-family: Helvetica, sans-serif;
 }
