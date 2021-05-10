@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
 		const preload = document.querySelector('.preload');
 		setTimeout( function() {
             preload.classList.add('preload-finish');
-        }, 0 );
+        }, 3600 );
 });
 
 //makes the visit me svg visable on hover over work section images
