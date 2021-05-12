@@ -2761,7 +2761,7 @@ h3	{
 	  #word-hover {
 		font-size: 19px;
 		position: absolute;
-    	top: 414px;
+		top: 388px;
 	}
 
 	#word-hover:hover img {
@@ -3648,6 +3648,7 @@ h3	{
 	
 }
 
+
 @media (device-width: 717px) and (device-height: 512px){
 	.nav-flex{
 		font-size: 1.4em !important;
@@ -3750,6 +3751,172 @@ h3	{
 		bottom: 80px;
 		left: 30px;
 		width: 90%;
+	}
+}
+
+@media (device-width: 720px) and (device-height: 540px) {
+	.nav-flex{
+		font-size: 1.4em !important;
+		padding-right: 19px !important;;
+	}
+
+	.nav-left{
+		padding-top: 25px !important;
+	}
+
+	.square > .square-text-wrapper li {
+		font-size: 1em !important;
+		font-family: Helvetica, sans-serif;
+		padding-top: 0px;
+		width: 300% !important;
+		margin-left: -40px !important;
+	}
+
+	.img-wrapper{
+		padding-bottom: 70px !important;
+	}
+
+	#html5, #js, #secriuty, #html-css, #photoshop,#illustrator {
+		height: 156px;
+	}
+
+	.square > .square-text-wrapper{
+		position: relative;
+    	right: 0px !important;
+	}
+
+	#box-3	{
+		width: 91% !important;
+	}
+
+	.box-1 {
+		left: 280px !important;
+	}
+
+	.box-1 h1{
+		font-size: 1.3em !important
+	}
+
+	.square .box-3{
+		position: relative;
+		left: 70px;
+	}
+
+	#hvms {
+		margin-left: -24px !important;
+		width: 85% !important;
+	}
+
+	#instapy {
+		width: 80% !important;
+	}
+
+	.right-side-main article p {
+		text-align: left !important; 
+	}
+	
+	#word-hover {
+		transition: 0.8s;
+		font-family: 'monument', sans-serif;
+		color: #ffffff;
+		font-size: 29px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		font-size: 1.3em;
+		position: absolute;
+		left: 450px;
+		top: 889px;
+	}
+
+	#word-hover:hover img {
+			display: block;
+			position: relative;
+			right: 417px;
+			bottom: 650px;
+			width: 655px;
+			height: 410px;
+		
+	}
+
+	#p1 {
+		margin-bottom: 30px;
+		overflow: hidden;
+		font-family: 'monument', sans-serif;
+		font-size: 1.3em;
+		position: relative;
+		left: 19px;
+		bottom: 29px;
+	}
+
+	#p2 {
+		margin-bottom: 30px;
+		overflow: hidden;
+		font-family: 'monument', sans-serif;
+		font-size: 1.3em;
+		position: relative;
+		bottom: 59px;
+		left: 30px;
+		width: 90%;
+	}
+
+}
+
+@media (device-width: 540px) and (device-height: 720px) {
+	.nav .nav-flex p {
+		padding-right: 30px !important;
+	}
+
+	#word-hover{
+		font-size: 0.85em;
+		position: absolute;
+		top: 654px;
+		left: 315px;
+	}
+
+	#p1{
+		font-size: 0.85em;
+		position: relative;
+		bottom: 28px;
+		left: 103px;	
+	}
+
+	#p2 {
+		font-size: 0.85em;
+		text-align: center;
+		position: relative;
+		bottom: 55px;
+		left: 60px;
+		width: 80%;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 60px;
+		bottom: 500px;
+		width: 480px;
+	}
+
+	.box-1 li {
+		margin-left: -8px !important;
+	}
+
+	.square > .square-text-wrapper li{
+		width: 300%;
+		margin-left: -40px;
+		font-size: 1em !important;
+	}
+
+	.square > .square-text-wrapper h1{
+		margin-top: 65px;
+		padding-bottom: 10px;
+	}
+
+	.box-3 h1 {
+		padding-bottom: 15px;
+		color: #fff;
+		width: 140%;
+		margin-left: -23px;
 	}
 }
 
@@ -3949,6 +4116,7 @@ h3	{
 
 	.square > .square-text-wrapper h1 {
 		font-size: 35px;
+		margin-top: 90px;
 	}
 
 	#riv,#hvms, #box-3,#instapy {
@@ -4027,7 +4195,7 @@ h3	{
 	}
 
 	.square .box-3 {
-		padding-left: 169px;
+		padding-left: 80px;
 	}
 
 	.box-4 ul{
@@ -4105,6 +4273,65 @@ h3	{
 	}
 
 
+}
+
+@media (device-width: 768px) and (device-height: 1024px){
+	.right-side-main article p{
+		text-align: left !important;
+		font-size: 1.2em !important;
+	}
+
+	#word-hover {
+		transition: 0.8s;
+		font-family: 'monument', sans-serif;
+		color: #ffffff;
+		font-size: 1.2em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		position: absolute;
+	    top: 882px;
+    	left: 145px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 110px;
+		bottom: 628px;
+		width: 700px;
+		height: 420px;
+	}
+
+	#p1{
+	    font-size: 1.2em;
+    	left: 294px;
+    	position: relative;
+    	bottom: 60px;
+	}
+
+	#p2{
+		font-size: 1.2em;
+		position: relative;
+		bottom: 90px;
+		left: 29px;
+		width: 90%;
+	}
+
+	.square > .square-text-wrapper h1{
+		margin-top: 0px !important;
+	}
+	
+	.square > .square-text-wrapper li{
+		margin-left: -80px !important;
+	}
+
+	.square .box-3 {
+		padding-left: 190px;
+	}
+
+	.background-grain {
+		height: 325%;
+	}
 }
 
 @media (min-width: 539px) and (max-width: 599px)	{
@@ -4953,7 +5180,7 @@ footer {
 	padding-bottom: 0;
 	font-size: 0.7em;
 	position: absolute;
-	top: 570px;
+	top: 556.5px;
 	left: 40px;
 }
 
@@ -5085,6 +5312,7 @@ footer {
 	padding-top: 50px;
 	width: 135.8%;
 }
+
 #riv,#hvms,#box-3,#instapy {
 	border: 4px solid #191a1d;
 	border-radius: 5px 5px 5px 5px;  
@@ -5176,7 +5404,7 @@ footer {
 	font-size: 1.2em;
 	text-align: left;
 	padding-top: 10px;
-	padding-left: 51px;
+	padding-left: 0px;
 }
 
 .box-1 ul {
@@ -7059,8 +7287,8 @@ footer{
 }
 
 .img-wrapper	{
-	margin-right: 44px;
-	padding-bottom: 11px;
+	margin-right: 105px;
+    padding-bottom: 11px;
 }
 
 .box-1	{
@@ -7202,72 +7430,6 @@ footer{
 	bottom: 5px;
 }
 
-}
-
-@media (device-width: 360px) and (device-height: 670px){
-	.squares-wrapper > .squares {
-		width: 95.2% !important;
-	}
-
-	.square > .img-wrapper img {
-		width: 55%;
-	}
-
-	#word-hover {
-		transition: 0.8s;
-		font-family: 'monument', sans-serif;
-		color: #ffffff;
-		font-size: 0.7em;
-		margin-bottom: 0;
-		padding-bottom: 0;
-		position: absolute;
-		top: 556px;
-		left: 20px;
-		letter-spacing: 0.4px;
-	}
-
-	#word-hover:hover img {
-		display: block;
-		position: relative;
-		right: 0px;
-		bottom: 368px;
-		width: 320px;
-	}
-
-	#p1{
-		font-size: 0.7em;
-		position: relative;
-		bottom: 31px;
-		left: 110px;
-	}
-
-	#p2 {
-		margin-bottom: 30px;
-		overflow: hidden;
-		font-family: 'monument', sans-serif;
-		font-size: 0.7em;
-		position: relative;
-		bottom: 60px;
-		left: 10px;
-		max-width: 99%;
-	}
-
-	.top  h1{
-	   padding-top: 0px !important;
-   	   padding-bottom: 30px !important;
-	}
-
-	i {
-		z-index: 99;
-	}
-
-	.links {
-		right: 3px;
-	}
-
-	.background-grain {
-		height: 420%;
-	}
 }
 
 @media (min-width: 300px) and (max-width: 320px) {
@@ -7790,15 +7952,16 @@ footer{
 
 .square > .square-text-wrapper ul	{
 	position: relative;
-	top: 210px;
-	margin-left: -483px;
-	font-size: 0.7em;
-	font-family: Helvetica, sans-serif;
+    top: 260px;
+    margin-left: -364px;
+    font-size: 0.66em;
+    font-family: Helvetica, sans-serif;
 }
 
 .square > .img-wrapper img {
-	width: 34.5%;
+	width: 41.2%;
     height: 130px;
+    margin-left: -22px;
 }
 
 .img-wrapper	{
@@ -7849,10 +8012,16 @@ footer{
 
 .square > .square-text-wrapper h1{
 	position: relative;
-    right: 200px;
-    top: 220px;
+	right: 0px;
+    color: #fff;
+    top: 240px;
     font-size: 1.3em;
 }
+
+.from-bottom {
+	opacity: 1 !important;
+}
+
 .square .box-2 .square-text-wrapper h1 {
 	margin-left: -430px;
 	position: relative;
@@ -8199,7 +8368,7 @@ footer{
 }
 
 .square > .img-wrapper img {
-	width: 43%;
+	    width: 51.4%;
 	height: 130px;
 }
 
@@ -8329,6 +8498,49 @@ footer{
 }
 
 
+}
+
+@media (device-width: 411px) and (device-height: 731px) {
+	#word-hover {
+		transition: 0.8s;
+		font-family: 'monument', sans-serif;
+		color: #ffffff;
+		font-size: 29px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		font-size: 0.7em;
+		position: absolute;
+		top: 588px;
+		left: 40px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 27px;
+		bottom: 410px;
+		width: 390px;
+	}
+
+	.square > .square-text-wrapper h1 {
+		margin-left: -240px;
+		position: relative;
+		top: 250px;
+		font-size: 1.2em;
+	}
+
+	.square > .square-text-wrapper li {
+		font-size: 1.2em;
+		font-family: Helvetica, sans-serif;
+		padding-top: 0px;
+		position: relative;
+		top: 60px;
+		left: 80px;
+	}
+
+	.background-grain {
+		height: 404%;
+	}
 }
 
 @media (min-width: 427px) and (max-width: 429px){
@@ -9340,6 +9552,122 @@ footer{
 	}
 }
 
+@media (device-width: 411px) and (device-height: 823px){
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 27px;
+		bottom: 380px;
+		width: 386px;
+		height: 260px;
+	}
+
+	.background-grain {
+		height: 354%;
+	}
+
+	.right-side-main article p {
+		margin-bottom: 30px;
+		overflow: hidden;
+		text-align: left;
+		font-family: 'IBM Plex Sans', sans-serif;
+		font-size: 0.7em;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+	#word-hover {
+		transition: 0.8s;
+		font-family: 'monument', sans-serif;
+		color: #ffffff;
+		font-size: 0.7em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		position: absolute;
+		top: 570px;
+		left: 144px;
+		letter-spacing: 0.4px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+   		position: relative;
+    	right: 0px;
+    	bottom: 392px;
+   		width: 387px;
+   		left: -130px;
+	}
+
+	#p1{
+		font-size: 0.7em;
+		position: relative;
+		bottom: 48px;
+		left: 232px;
+	}
+
+	#p2 {
+	margin-bottom: 30px;
+    overflow: hidden;
+    font-family: 'monument', sans-serif;
+    font-size: 0.7em;
+    position: relative;
+    bottom: 74px;
+    left: 14px;
+    max-width: 98%;
+	}
+	
+	.squares-wrapper > .squares{
+		width: 97.4% !important;
+	}
+
+	.square > .square-text-wrapper h1 {
+		position: relative;
+		top: 253px !important;
+		font-size: 1.2em;
+		margin-right: 240px !important;
+	}
+
+	.square > .square-text-wrapper ul{
+		margin-left: -610px;
+		position: relative;
+		top: 260px;
+		left: 100px;
+	}
+
+	.box-1 h1 {
+		padding-left: 90px;
+	}
+
+	.box-1 ul {
+		padding-left: 40px;
+	}
+
+	.square > .square-text-wrapper h1{
+		margin-right: 300px;
+	}
+
+	.square > .square-text-wrapper ul {
+		margin-left: -720px;
+	}
+
+	.box-3 h1{
+		padding-left: 0px;
+	}
+
+	.box-3 ul{
+		margin-left: -30px;
+	}
+
+	.square .box-4 .square-text-wrapper h1{
+		margin-left: -445px;
+	}
+
+	.square .box-4 .square-text-wrapper ul{
+		margin-left: 42px;
+	}
+}
+
 @media (min-width: 389px) and (max-width: 391px){
 	.background-grain{
 		height: 336%;
@@ -10079,7 +10407,7 @@ footer{
 
 }
 
-@media (device-width: 360px) and (device-height: 740px){
+@media (device-width: 360px) and (min-device-height: 739px) and (max-device-height: 801px){
 	footer{
 		position: absolute;
 		bottom: 0;
@@ -10095,7 +10423,7 @@ footer{
 	.links {
 		position: relative;
 		bottom: 10px;
-		right: 2%;
+		right: 0.7%;
 	}
 
 	.top h1{
@@ -10135,7 +10463,7 @@ footer{
 	}
 
 	.square .box-4 .square-text-wrapper h1{
-		margin-left: -45px;
+	    margin-left: -110px;
 	}
 
 	.square .box-4 .square-text-wrapper ul{
@@ -10143,7 +10471,7 @@ footer{
 	}
 
 	.square > .square-text-wrapper h1 {
-		margin-right: 400px !important;
+		margin-right: 490px !important;
 		position: relative;
 		top: 245px;
 	}
@@ -10151,7 +10479,7 @@ footer{
 	.square > .square-text-wrapper ul	{
 		position: relative;
 		top: 255px;
-		margin-left: -432px !important;
+		margin-left: -469px !important;
 	}
 
 	#word-hover {
@@ -10186,6 +10514,12 @@ footer{
 		height: 379% !important;
 	}
 
+}
+
+@media (min-width: 359px) and (max-width: 361px){
+	.background-grain{
+		height: 359% !important;
+	}
 }
 
 @media (device-width: 360px) and (device-height: 726px){
@@ -10291,6 +10625,76 @@ footer{
 	}
 }
 
+@media (device-width: 360px) and (device-height: 670px){
+	.squares-wrapper > .squares {
+		width: 95.2% !important;
+	}
+
+	.square > .img-wrapper img {
+		width: 61%;
+	}
+
+	#word-hover {
+		transition: 0.8s;
+		font-family: 'monument', sans-serif;
+		color: #ffffff;
+		font-size: 0.7em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		position: absolute;
+		top: 556.5px;
+		left: 20px;
+		letter-spacing: 0.4px;
+	}
+
+	#word-hover:hover img {
+		display: block;
+		position: relative;
+		right: 0px;
+		bottom: 368px;
+		width: 320px;
+	}
+
+	#p1{
+		font-size: 0.7em;
+		position: relative;
+		bottom: 31px;
+		left: 110px;
+	}
+
+	#p2 {
+		margin-bottom: 30px;
+		overflow: hidden;
+		font-family: 'monument', sans-serif;
+		font-size: 0.7em;
+		position: relative;
+		bottom: 60px;
+		left: 10px;
+		max-width: 99%;
+	}
+
+	.top  h1{
+	   padding-top: 0px !important;
+   	   padding-bottom: 30px !important;
+	}
+
+	i {
+		z-index: 99;
+	}
+
+	.links {
+		right: 3px;
+	}
+
+	.box-3{
+		padding-left: 18px;
+	}
+
+	.background-grain {
+		height: 420% !important;
+	}
+}
+
 @media (device-width: 360px) and (device-height: 640px) {
 	footer{
 		position: absolute;
@@ -10336,10 +10740,10 @@ footer{
 		margin-left: -440px;
 	}
 
-	.box-3 h1{
+	.box-3 h1 {
 		padding-left: 0px;
 		position: relative;
-		right: 6.5%;
+		right: 2.5%;
 	}
 
 	.box-3 ul{
