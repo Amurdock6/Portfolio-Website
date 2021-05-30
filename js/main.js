@@ -28,10 +28,10 @@ $("#box-3").mouseout(function(){
   $("#svg-3 svg").css("opacity", "0");
 });
 
-$("#instapy").mouseover(function(){
+$("#box-4").mouseover(function(){
   $("#svg-4 svg").css("opacity", "1");
 });
-$("#instapy").mouseout(function(){
+$("#box-4").mouseout(function(){
   $("#svg-4 svg").css("opacity", "0");
 });
 
@@ -90,7 +90,7 @@ var imageSources2 = ["images/work-section/rhs-auto-color.jpg","images/work-secti
 var buttons = document.getElementsByClassName("change-image")[0];
 var imageSources3 = ["images/work-section/axis.png","images/work-section/axis-black-white.png"]
 var buttons = document.getElementsByClassName("change-image")[0];
-var imageSources4 = ["images/work-section/instapy-colored.png","images/work-section/instapy.png"]
+var imageSources4 = ["images/work-section/doge-doodle.jpg","images/work-section/doge-doodle-black-white.jpg"]
 var buttons = document.getElementsByClassName("change-image")[0];
 
 //enlargable certificates
@@ -149,7 +149,7 @@ buttons.addEventListener('click', function() {
       indexFour = 0;
     }
 
-    document.getElementById("instapy").src = imageSources4[indexFour];
+    document.getElementById("box-4").src = imageSources4[indexFour];
     indexFour++;
     if (indexFive === imageSources5.length) {
       indexFive = 0;
