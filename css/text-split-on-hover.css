@@ -45,8 +45,8 @@ h2 span:nth-child(3){
 	left: 0;
 	transform: translateY(-10%) scaleY(0);
 	width: 97%;
-	color: #000000;
-	background: #add8e6;
+	color: #fff;
+	background: #bc3ae5;
 	font-size: 0.28em;
 	font-weight: 500;
 	letter-spacing: 0.5em;

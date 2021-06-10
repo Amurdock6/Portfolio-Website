@@ -77,7 +77,7 @@ $('img[data-enlargeable]').addClass('img-enlargeable img-background').click(func
 
 
 //change images color
-var imageSources = ["images/american-fork-pic.jpg","images/american-fork-pic-b&w.jpg"]
+var imageSources = ["images/office-pic.jpg","images/office-pic-mono.jpg"]
 var buttons = document.getElementsByClassName("change-image")[0];
 
 var imageSources11 = ["images/porsche.jpg","images/porsche-mono.jpg"]

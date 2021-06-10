@@ -43,7 +43,7 @@
 }
 
 .nav .nav-flex p:hover	{
-	color: #add8e6;
+	color: #bc3ae5;
 	letter-spacing: 4px;
 	transition: 0.5s;
 	transition-timing-function: ease-out;
@@ -67,7 +67,7 @@
 }
 
 .nav .right-p:hover{
-	color: #add8e6;
+	color: #bc3ae5;
 	letter-spacing: 4px;
 	transition: 0.5s;
 	transition-timing-function: ease-out;
