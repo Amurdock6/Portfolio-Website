@@ -19,7 +19,6 @@
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
 	<link rel="stylesheet" type="text/css" href="css/works-section.css">
 	<link rel="stylesheet" type="text/css" href="css/certificates-section.css">
-	<link rel="stylesheet" type="text/css" href="css/back-to-top-btn.css">
 	<link rel="stylesheet" type="text/css" href="css/reveal-on-scroll.css">
 	<!-- fonts -->
 	<link rel="stylesheet" type="text/css" href="css/fat-boy.css">
@@ -34,6 +33,11 @@
 	
 </head>
 <body>
+	<script>
+		function getResolution() {
+			alert("Your screen resolution is: " + screen.width + "x" + screen.height);
+		}
+		</script>
 	<div class="preload">
 		<h2>
 			Alexander Murdock
@@ -334,6 +338,7 @@
 					   <li class="top"><a href="#top" class="underline">back to top</a></li>
 					</ul>
 				</div>
+				<button type="button" onclick="getResolution();">Get Resolution</button>
 		   </footer>
 		
 	
