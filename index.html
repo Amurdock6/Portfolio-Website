@@ -3,7 +3,7 @@
 <head>
 	<!-- meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<meta name="viewport" content="width=device-width, height=device-height">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>Alexander Murdock</title>
 	<meta name="description" content="Portfolio Website">
@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="css/works-section.css">
 	<link rel="stylesheet" type="text/css" href="css/certificates-section.css">
 	<link rel="stylesheet" type="text/css" href="css/reveal-on-scroll.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile-media-queries.css">
 	<!-- fonts -->
 	<link rel="stylesheet" type="text/css" href="css/fat-boy.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -213,7 +214,7 @@
 						<div class="square">
 							<div class="box-4">
 								<div class="square-text-wrapper">
-									<a href="https://github.com/Amurdock6/Doodle-Jump" target=”_blank” alt="link to github repo">
+									<a href="doodle-Jump/index.html" target=”_blank” alt="link to github repo">
 										<h1 class="slide-in from-bottom">Doge Jumper</h1>
 									</a>
 									
@@ -227,7 +228,7 @@
 
 							<div class="img-wrapper">
 								<div class="slide-in from-bottom">
-									<a href="https://github.com/Amurdock6/Doodle-Jump">
+									<a href="doodle-Jump/index.html">
 										<img id="box-4" src="images/work-section/doge-doodle-black-white.jpg" alt="Doge Jumper Game Img" >
 									</a>
 									<div class="rotate-right" id="svg-4">
@@ -341,5 +342,15 @@
 	<!-- scripts -->
 	<script src="js/main.js"></script>
 	<script src="js/scroll-efect.js"></script>
+	 <script>
+		window.onload=function(){
+		var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+		if (mobile) {
+			alert('Mobile version of this website is still in Development please use desktop or laptop for a better experince');              
+		} else {
+			
+		}
+	  }
+	  </script>
 </body>
 </html>

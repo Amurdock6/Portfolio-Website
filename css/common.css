@@ -282,7 +282,7 @@ a:visited	{
 
 @media (device-width: 1366px) and (device-height: 768px){
     .background-grain{
-		height: 530% !important;
+		height: 530%  ;
 	}
 }
 
@@ -357,19 +357,19 @@ a:visited	{
 
 @media (device-width: 375px) and (device-height: 736px){
 	.background-grain{
-		height: 380% !important;
+		height: 380%  ;
 	}
 }
 
 @media (device-width: 360px) and (device-height: 740px){
 	.background-grain {
-		height: 369% !important;	
+		height: 369%  ;	
 	}
 }
 
 @media (device-width: 360px) and (device-height: 640px){
 	.background-grain {
-		height: 422% !important;
+		height: 422%  ;
 	}
 }
 
@@ -400,5 +400,11 @@ a:visited	{
 @media (min-height: 822px) and (max-height: 823px) {
 	.background-grain {
 		height: 343%;	
+	}
+}
+
+@media (device-width: 375px) and (device-height: 812px) {
+	.background-grain {
+		height: 453%;	
 	}
 }
