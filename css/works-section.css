@@ -2,7 +2,10 @@
 	color: #fff;
 	display: flex;
     justify-content: center;
+    padding-top: 200px;
+	padding-bottom: 80px;
 	font-family: "fatboy-slim";
+	font-size: 4.3em;
 }
 
 a img {
