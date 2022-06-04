@@ -1,7 +1,7 @@
 .main-wrapper	{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	padding-top: 30px;
+	padding-top: 2.45vh;
 }
 
 /* pops up picture of me next to GT3 RS on hover */
@@ -9,7 +9,7 @@
 	transition: 0.8s;
 	font-family: 'monument', sans-serif;
 	color: #ffffff;
-	font-size: 29px;
+	font-size: 1.25em;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -26,10 +26,11 @@
 
 #word-hover:hover img {
 	display: block;
-    position: relative;
-    right: 880px;
-    bottom: 260px;
-    width: 745px;
+	position: relative;
+	right: 53.7vw;
+	bottom: -45vh;
+	width: 45vw;
+	height: 55vh;
 }
 
 /* left side main */
@@ -39,28 +40,27 @@
 }
 
 .image-container	{
-	padding-top: 69px;
-	padding-left: 90px;
-	padding-right: 10px;
+	padding-top: 5vh;
+	padding-left: 3.6vw;
+	padding-right: 1vw;
 }
 
 .american-fork-pic {
-	 height: 700px;
-	 width: 1150px;
-	 border: 4px solid #191a1d;
-	 border-radius: 5px 5px 5px 5px;
+	width: 43vw;
+	height: 54vh;
+	 border: 0.2vw solid #191a1d;
 }
 
 .top-text {
 	color: #ffffff;
-	padding-right: 5px;
+	padding-right: 0.2vw;
 }
 
 /* right side main */
 .right-side-main	{
 	color: #fff;
 	display: flex;
-	padding-right: 130px;
+	padding-right: 10vw;
 	justify-content: flex-start;
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -72,31 +72,30 @@ article	a{
 }
 
 article p {
-	margin-bottom: 30px;
+	margin-bottom: 3vh;
 	overflow: hidden;
 	font-family: 'monument', sans-serif;
 }
 
 #p1 {
-	margin-bottom: 30px;
+	margin-bottom: 3vh;
 	overflow: hidden;
 	font-family: 'monument', sans-serif;
-	font-size: 26px;
+	font-size: 1.25em;
 }
 
 #p2{
-	margin-bottom: 30px;
+	margin-bottom: 1vh;
 	overflow: hidden;
 	font-family: 'monument', sans-serif;
-	font-size: 26px;
+	font-size: 1.25em;
 }
 
 h3	{
-	font-size: 2em;
-    padding-top: 69px;
-    padding-bottom: 0px;
-    margin-bottom: 15px;
-    border-bottom: 4px solid #ffffff;
-    width: 34.5%;
+	font-size: 2.2em;
+	padding-top: 2vh;
+	padding-bottom: 0;
+	margin-bottom: 1vh;
+	border-bottom: 0.4vh solid #ffffff;
+	width: 29.5%;
 }
-

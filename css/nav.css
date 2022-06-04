@@ -1,7 +1,7 @@
 
 .nav	{
 	width: 100%;
-	padding-top: 60px;
+	padding-top: 5vh;
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
@@ -10,13 +10,13 @@
 .nav-left	{
 	color: #ffffff;
 	font-size: 1.7em;
-	padding-left: 100px;
-	margin-top: -40px;
+	padding-left: 2vw;
+	margin-top: 1vh;
 }
 
 .nav-left p {
-	padding-left: 0px;
-	margin-bottom: -48px;
+	padding-left: 0;
+	margin-bottom: -4vh;
 }
 
 /* right side of nav */
@@ -27,15 +27,15 @@
 }
 
 .nav .nav-flex p {
-	font-size: 1.4em;
+	font-size: 1.8em;
 	font-family: fatboy-slim;
 	font-weight: 100;
 	color: white;
-	padding-right: 50px;
+	padding-right: 2.6vw;
 	display: inline-block;
 	vertical-align: middle;
 	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 2vh rgba(0, 0, 0, 0);
 	backface-visibility: hidden;
 	position: relative;
 	overflow: hidden;
@@ -44,7 +44,7 @@
 
 .nav .nav-flex p:hover	{
 	color: #bc3ae5;
-	letter-spacing: 4px;
+	letter-spacing: 0.3vw;
 	transition: 0.5s;
 	transition-timing-function: ease-out;
 }
@@ -54,12 +54,12 @@
 	font-family: fatboy-slim;
 	font-weight: 100;
 	color: #ffffff;
-	padding-right: 122px;
-	padding-top: 0px;
+	padding-right: 3vw;
+	padding-top: 0;
 	display: inline-block;
 	vertical-align: middle;
 	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 2vh rgba(0, 0, 0, 0);
 	backface-visibility: hidden;
 	position: relative;
 	overflow: hidden;
@@ -68,7 +68,7 @@
 
 .nav .right-p:hover{
 	color: #bc3ae5;
-	letter-spacing: 4px;
+	letter-spacing: 0.3vw;
 	transition: 0.5s;
 	transition-timing-function: ease-out;
 }
